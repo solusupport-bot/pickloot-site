@@ -1,0 +1,38 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const dateStr = post.data.publishDate.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+<Layout title={post.data.title} description={post.data.description}>
+  <span class="category-tag">{post.data.category}</span>
+  <h1>{post.data.title}</h1>
+  <p class="meta">Published {dateStr}</p>
+
+  <div class="disclosure-banner">
+    As an Amazon Associate, PickLoot earns from qualifying purchases. Some links on this page are affiliate links — see our <a href="/disclaimer">affiliate disclosure</a>.
+  </div>
+
+  <div class="prose">
+    <Content />
+  </div>
+
+  {post.data.products && post.data.products.map((p) => (
+    <ProductCard name={p.name} amazonUrl={p.amazonUrl} price={p.price} pros={p.pros} cons={p.cons} />
+  ))}
+</Layout>

@@ -1,0 +1,29 @@
+---
+interface Props {
+  name: string;
+  amazonUrl: string;
+  price?: string;
+  pros?: string[];
+  cons?: string[];
+}
+const { name, amazonUrl, price, pros = [], cons = [] } = Astro.props;
+---
+<div class="product-card">
+  <h3>{name}</h3>
+  {price && <p class="price">{price}</p>}
+  {(pros.length > 0 || cons.length > 0) && (
+    <div class="pros-cons">
+      <div>
+        <div class="label">Pros</div>
+        <ul>{pros.map((p) => <li>{p}</li>)}</ul>
+      </div>
+      <div>
+        <div class="label">Cons</div>
+        <ul>{cons.map((c) => <li>{c}</li>)}</ul>
+      </div>
+    </div>
+  )}
+  <a class="buy-button" href={amazonUrl} target="_blank" rel="nofollow sponsored noopener">
+    Check price on Amazon
+  </a>
+</div>
