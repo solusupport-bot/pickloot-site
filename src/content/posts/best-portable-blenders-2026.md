@@ -54,3 +54,17 @@ The Magic Bullet is close to a third of the price of the other two, and it's a r
 ## Which one should you buy?
 
 If you want raw blending power and don't need to unplug it, the BlendBoss is the best value. If you actually need to bring it with you — car, gym bag, dorm, desk at work — the Beast Go Cordless is worth the extra cost over a cheaper cordless option. If you're just testing whether you'll actually use a personal blender regularly, start with the Magic Bullet before spending more.
+
+## Frequently asked questions
+
+**Can any of these actually crush ice, or just soften it?**
+
+The Ninja BlendBoss handles ice reliably thanks to its 1,200-watt motor. The Beast Go Cordless does reasonably well but isn't quite as consistent with a full load of ice. The Magic Bullet is the weakest of the three here — it can struggle with ice unless you add liquid first and go in smaller batches.
+
+**How long do portable blender batteries actually last before needing to be replaced?**
+
+Rechargeable batteries in cordless blenders typically hold a meaningful charge for 1-2 years of regular use before capacity noticeably drops. This isn't specific to any one of these models — it's a general limitation of lithium-ion batteries under repeated charge cycles, so treat "cordless" as having a practical lifespan, not a permanent feature.
+
+**Is it safe to blend hot liquids in a personal blender?**
+
+Generally no, unless the manufacturer specifically states otherwise. Sealed personal blender cups can build up pressure with hot contents and the seal can fail or the cup can crack. All three blenders here are designed for cold or room-temperature ingredients — smoothies, shakes, cold soups — not hot soup blending.

@@ -54,3 +54,17 @@ If you don't want to carry a bulky over-ear headset, or you're someone who finds
 ## Bottom line
 
 If budget is the main constraint, the JLab pick is a legitimately good travel companion, not just "good for the price." If you fly often and noise cancellation quality matters most, the Sony is worth the jump. If portability and comfort outweigh raw ANC performance, go with the Bose earbuds instead.
+
+## Frequently asked questions
+
+**Does noise cancellation work well on all types of noise?**
+
+ANC is most effective on constant, low-frequency noise like engine drone or air conditioning hum — which is exactly what makes it so effective on planes. It's noticeably less effective on sudden or high-frequency sounds like a crying baby or a barking dog, which is a limitation across all three of these, not specific to any one model.
+
+**Can I use these for phone calls, or just listening?**
+
+All three have built-in microphones for calls, but call quality with ANC headphones varies more than playback quality does — the Bose earbuds tend to perform best for calls in noisy environments among this group, since their mic array is tuned for voice pickup specifically, not just entertainment audio.
+
+**Is it safe to wear noise-cancelling headphones for an entire long-haul flight?**
+
+Audiologists generally recommend taking breaks from any headphones every couple of hours regardless of noise cancellation, mainly to give your ears a rest and stay aware of announcements. None of these three have a specific safety issue with extended wear beyond general headphone use guidance.

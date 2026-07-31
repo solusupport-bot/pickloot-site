@@ -54,3 +54,17 @@ This is the one scenario where the Rubbermaid and OXO options don't help you —
 ## Bottom line
 
 Start with the Rubbermaid set for everyday leftovers and weekly meal prep. Switch to glass if plastic staining or smell retention bothers you. Add an insulated jar specifically for situations where you need hot food to stay hot without reheating.
+
+## Frequently asked questions
+
+**Are plastic meal prep containers safe to microwave repeatedly?**
+
+The Rubbermaid Brilliance containers are labeled microwave-safe and designed for repeated use, but like most plastics, avoid microwaving with the lid fully sealed (steam needs to vent) and don't microwave on high heat for extended periods, which can degrade any plastic container faster over time.
+
+**How long does food actually stay fresh in these containers?**
+
+Container quality affects this less than most people assume — an airtight seal (which all three of these have in different ways) mainly slows moisture loss and cross-contamination with other fridge odors. Actual food safety timelines depend on the food itself, generally 3-4 days for most cooked leftovers regardless of which container you use.
+
+**Can I freeze food directly in these containers?**
+
+The Rubbermaid and OXO glass containers are both freezer-safe. The Hydro Flask insulated jar is not designed for freezer use — it's built for keeping already-hot food hot during transport, not for food storage extremes, so use a different container if you're freezing portions ahead.

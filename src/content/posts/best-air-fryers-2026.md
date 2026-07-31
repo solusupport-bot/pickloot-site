@@ -54,3 +54,17 @@ The Cosori Iconic's ceramic basket is the real selling point here — it's notic
 ## Bottom line
 
 Start with the Instant Vortex Plus unless you have a specific reason not to — it's the best value here. Upgrade to the Ninja if you want multi-cooker functionality, or to the Cosori if cleanup ease and countertop looks matter more to you than price.
+
+## Frequently asked questions
+
+**Do air fryers actually use less oil than deep frying?**
+
+Yes, meaningfully — most air fryer recipes call for a tablespoon of oil or less, compared to the cups of oil needed for deep frying. The tradeoff is texture: air-fried food is closer to oven-roasted than true deep-fried, which matters if you're specifically chasing that deep-fry crunch and mouthfeel.
+
+**How much food can I actually cook at once?**
+
+This varies more than the size numbers suggest — basket-style fryers like these three need food in a single layer for even cooking, so the effective capacity for a full meal is often smaller than the basket size implies. Overcrowding is the most common reason people report uneven or soggy results.
+
+**Are the nonstick baskets on these safe long-term?**
+
+All three use standard nonstick coatings that hold up fine under normal use, but avoid metal utensils that can scratch the coating over time, and replace the basket if the coating visibly flakes or wears through — cooking on a damaged nonstick surface isn't recommended by any of these manufacturers.

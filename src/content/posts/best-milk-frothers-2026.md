@@ -55,3 +55,17 @@ The Breville only makes sense if you're making milk drinks daily for a household
 ## Bottom line
 
 Start with the budget pick unless you have a specific reason not to. Upgrade to the compact option if counter space is tight and you're mostly making drinks for yourself. Only go for the premium machine if you're regularly frothing for more than one or two people at a time.
+
+## Frequently asked questions
+
+**Does the type of milk affect which frother I should buy?**
+
+Yes — oat and almond milk froth less consistently than dairy or barista-blend alt-milks because they have less protein and fat to stabilize the foam. The Instant Milk Frother handles this variability best since you can adjust technique manually; the Aeroccino3's automated settings are tuned more for dairy.
+
+**Can I use these to make hot chocolate or just coffee drinks?**
+
+All three work fine for hot chocolate — you're just heating and frothing milk, not coffee specifically. The Breville's larger capacity is actually an advantage here if you're making hot chocolate for more than one person at once.
+
+**How often do these need to be descaled or cleaned?**
+
+The Aeroccino3 and Breville should be wiped out after each use and descaled every few weeks with regular use, similar to a coffee maker. The Instant Milk Frother's whisk attachment is hand-wash only but has no heating element to descale, making it the lowest-maintenance option of the three.

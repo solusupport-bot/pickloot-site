@@ -74,3 +74,17 @@ Back-to-school season is also when a lot of "deal" listings pop up that are actu
 ## Bottom line
 
 None of these are flashy. They're the kind of gadgets you buy once at the start of the semester and then don't think about again until they save you from a dead phone, a lost essay draft, or a sore neck in week eleven. That's the bar we used for this list.
+
+## Frequently asked questions
+
+**Do I need all five of these, or can I just pick one or two?**
+
+Pick based on your actual daily friction points. If your phone dies by mid-afternoon, start with the power bank. If you're constantly asking classmates to repeat things in noisy lecture halls, the earbuds solve that specific problem. Buying all five at once isn't necessary — match the gadget to the problem you actually have.
+
+**Is it worth waiting for back-to-school sales, or should I buy now?**
+
+Prices on established gadgets like these don't usually swing dramatically during back-to-school season — the "sale" pricing is often close to what these items sell for most of the year anyway. If you need something before classes start, buying now is reasonable; don't assume a deep discount is coming.
+
+**Will cheaper alternatives to these five work just as well?**
+
+Sometimes, but the categories where corners get cut most often are battery longevity and build durability — a $15 earbud clone might sound fine on day one but degrade faster. If budget is tight, it's usually better to buy fewer, better items than to buy a cheaper version of everything.

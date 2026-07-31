@@ -54,3 +54,17 @@ Peak Design's cubes cost roughly double the Gonex compression set for a similar 
 ## Bottom line
 
 Start with basic organization cubes unless you specifically struggle to fit your luggage closed — in that case, compression cubes solve a real problem rather than just being a nice-to-have. Only go premium if you travel frequently enough to wear out a budget set within a year or two.
+
+## Frequently asked questions
+
+**Do packing cubes actually save space, or just organize?**
+
+Basic cubes like the Veken set don't reduce volume — they just corral items so your bag stays organized, which can actually add a small amount of bulk from the fabric itself. Only compression cubes (like the Gonex or Peak Design sets) meaningfully reduce the space clothing takes up, through a second zipper that presses air out.
+
+**What size packing cubes should I buy for a carry-on?**
+
+Most carry-on packers use a mix of sizes — a large cube for bulkier items like sweaters, a medium for everyday clothing, and a small for underwear or accessories. All three sets reviewed here come in multiple sizes for exactly this reason; buying only one size usually leads to wasted space.
+
+**Are packing cubes worth it for short trips, or just long ones?**
+
+They help on any trip length, but the value is clearer the longer or more complex the trip is — for a quick overnight bag, basic folding may be just as fast. For a week or more, or for trips involving multiple destinations where you're repacking often, cubes save real time and reduce the "explosion in a suitcase" problem.

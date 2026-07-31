@@ -54,3 +54,17 @@ The clip-mount mesh tray costs more for a similar function to the drilled tray, 
 ## Bottom line
 
 Most people should start with a basic clip-and-tie kit before buying a tray — you'll quickly find out whether your real problem is loose cables (kit solves it) or a visible power strip and cord bundle (a tray solves it). Buy the tray that matches how you're willing to mount it: screws for the cheaper option, clips for the pricier no-drill version.
+
+## Frequently asked questions
+
+**Will drilling into my desk damage it or void a warranty?**
+
+Small screw holes on the underside of a desk are generally cosmetic and won't affect structural integrity, but check your desk's warranty terms first if it's a newer purchase — some manufacturers do exclude damage from aftermarket mounting. If you're renting furniture or worried about resale value, the clip-mount option avoids this question entirely.
+
+**Can I use these solutions with a standing desk that changes height?**
+
+Yes, but the drilled tray is less ideal since it's fixed to the desk surface and doesn't account for a desk moving on a lifting column — cables can get pinched at extreme height ranges. Clip-based options that ride along with the desk, or slack loops built into the cable routing, work better for standing desks.
+
+**Do these work for gaming setups with a lot of cables, not just office work?**
+
+The basic kit and the 40-inch tray both scale reasonably well to gaming setups, though a heavy multi-monitor or multi-console gaming desk may need two trays or a wider version than what's listed here. Measure your actual cable volume before assuming one tray covers everything.

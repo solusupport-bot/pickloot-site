@@ -54,3 +54,17 @@ If you edit photos or video and need a monitor you can trust for color decisions
 ## Bottom line
 
 Default to the Arzopa unless you have a specific reason not to. Choose the Dell if minimizing weight is your top priority. Choose the Asus ProArt only if color accuracy is actually part of your workflow — otherwise you're paying for a feature you won't use.
+
+## Frequently asked questions
+
+**Will a portable monitor work with my laptop, or do I need a specific brand?**
+
+All three connect via USB-C with video support (or HDMI as a backup on some models), which works with most modern laptops regardless of brand — Windows, Mac, or Chromebook. The main thing to check is whether your laptop's USB-C port supports video output ("DisplayPort Alt Mode"), which most laptops from the last several years do.
+
+**Do portable monitors need their own power source?**
+
+Usually not — most portable monitors, including these three, draw power through the same USB-C cable used for video, so you don't need a separate charger in most setups. Older or lower-power laptops may struggle to power both the monitor and themselves, in which case a powered USB-C hub helps.
+
+**Can I use a portable monitor as my only second screen at a permanent desk?**
+
+Yes, though if it's staying in one place permanently, a standard external monitor is usually a better value since portable monitors carry a price premium for their thin, lightweight design. These three make more sense if you're actually moving the monitor between locations regularly.

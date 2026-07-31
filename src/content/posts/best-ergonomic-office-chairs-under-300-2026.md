@@ -54,3 +54,17 @@ The BV chair's split-backrest design is a genuinely different approach — it al
 ## Bottom line
 
 If budget is the main constraint, the Colamy Kirin is the best starting point. If you can stretch to $280, the Colamy Ergonomic's seat depth adjustment and headrest make a real difference for full-day comfort. Consider the BV chair specifically if you know a traditional rigid backrest doesn't work well for you.
+
+## Frequently asked questions
+
+**Do budget chairs like these actually help with back pain?**
+
+Real ergonomic adjustability (seat depth, lumbar support, armrest height) matters more for back comfort than price alone, and all three chairs here offer genuine adjustment in those areas — but a chair alone won't fix serious back issues. If pain is ongoing, it's worth getting the chair right as one piece of a bigger fix, not the whole solution.
+
+**How long do budget ergonomic chairs typically last?**
+
+With daily use, expect solid performance for around 3-5 years before foam padding starts to compress noticeably or the gas lift mechanism wears down — shorter than premium $800+ chairs, but reasonable for the price. Watch for squeaking or sinking as early signs it's time to replace.
+
+**Is seat depth adjustment really necessary, or is it a nice-to-have?**
+
+It matters more than people expect, especially if you're notably taller or shorter than average. Without it, the seat edge either digs into the back of your knees (too deep) or fails to support your thighs (too shallow) — both cause real discomfort over a full workday, which is why we weighted it heavily in these picks.

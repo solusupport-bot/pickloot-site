@@ -54,3 +54,17 @@ Bamboo and Tencel-based fabrics (the YnM and Bearaby picks here) are generally b
 ## Bottom line
 
 Start with the YnM if you're not sure a weighted blanket is for you and want to test the concept without a big investment. Move up to the Baloo for a more premium, durable everyday blanket, and to the Bearaby specifically if you run hot at night and beads-in-fabric blankets have felt too warm for you in the past.
+
+## Frequently asked questions
+
+**Are weighted blankets safe for everyone to use?**
+
+Most healthy adults can use a weighted blanket sized appropriately for their body weight without issue. They're generally not recommended for young children, and people with certain respiratory or circulatory conditions should check with a doctor first, since restricted movement isn't ideal for every situation.
+
+**Can I wash a weighted blanket in a regular washing machine?**
+
+It depends on the fill and your machine's capacity — glass-bead blankets like the Baloo and YnM are heavy even before adding water weight, and a standard home washer may not handle the load well. Check the specific care label; many people use a large-capacity or commercial machine instead, or wash a removable cover separately.
+
+**Will a weighted blanket keep me too warm in summer?**
+
+It depends heavily on the fabric, not just the weight. The Bearaby's open-knit Tencel design is specifically built to avoid this problem, while cotton and bamboo options can run warmer, especially in humid climates — worth factoring in if you don't want to swap blankets seasonally.

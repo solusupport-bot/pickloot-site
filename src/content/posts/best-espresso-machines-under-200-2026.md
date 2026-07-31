@@ -54,3 +54,17 @@ The Bambino Plus automates milk texturing, which is the single biggest time-save
 ## Bottom line
 
 If $100 is a hard ceiling, get the De'Longhi and adjust your expectations accordingly — it's a fine entry point, not a café replacement. If you can stretch toward $350-400, the Bambino Plus is the easier daily machine, and the Gaggia Classic Pro is the better choice if you actually want to get good at making espresso, not just own a machine that makes it.
+
+## Frequently asked questions
+
+**Do I need a separate grinder, or do these come with one?**
+
+None of these three include a built-in grinder — all are for pre-ground coffee or coffee you grind separately. This matters more than people expect: pre-ground coffee stales within days and produces noticeably worse espresso than freshly ground, so budget for a decent burr grinder if you're serious about quality, regardless of which machine you buy.
+
+**How hard is it to actually learn to pull a good shot?**
+
+The De'Longhi and Bambino Plus are both designed to minimize the learning curve with pressurized baskets or automated features. The Gaggia Classic Pro has the steepest learning curve of the three since it rewards manual technique — expect to "waste" a fair amount of coffee in your first few weeks getting shots dialed in.
+
+**Is descaling really necessary, or can I skip it?**
+
+Skipping it isn't recommended — mineral buildup from tap water gradually clogs the internal components of any espresso machine, and repairs or early replacement cost far more than the descaling solution itself. All three of these need regular descaling, more often if your tap water is particularly hard.

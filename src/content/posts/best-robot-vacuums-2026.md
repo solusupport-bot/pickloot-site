@@ -54,3 +54,17 @@ If you have a small, relatively simple apartment layout, the budget pick handles
 ## Bottom line
 
 Don't buy the most expensive robot vacuum assuming it'll solve problems the cheaper ones have (like pet hair) — check that the specific weak points of a model match what you actually need before paying the premium.
+
+## Frequently asked questions
+
+**Do robot vacuums work well on both carpet and hardwood?**
+
+All three handle hardwood well since it's the easier surface. Carpet performance varies more — thicker or high-pile carpet reduces suction effectiveness across all price tiers, and none of these three are specifically marketed as high-pile carpet specialists, so expect somewhat reduced performance there regardless of which one you choose.
+
+**How much maintenance do robot vacuums actually require?**
+
+Expect to empty the dustbin regularly (weekly is typical for average homes), clean the brush roll of hair wrap monthly, and replace filters every few months. The premium tier often includes self-emptying base stations that reduce this frequency significantly — that convenience is part of what you're paying for at the higher price point.
+
+**Will a robot vacuum work in a multi-level home?**
+
+Yes, but it can't climb stairs, so you'll need to either carry it between floors or buy a separate unit per level if you want full automation on each floor. Mapping-based models (like the premium pick here) typically let you save separate maps for different levels if you do move it between floors.

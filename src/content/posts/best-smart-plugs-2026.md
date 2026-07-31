@@ -55,3 +55,17 @@ If you're trying to control a full entertainment center or a desk setup with sev
 ## Bottom line
 
 Start with the Wyze Plug unless you're specifically an Apple Home user, in which case get the Wemo. Upgrade to the Monoprice Stitch strip once you find yourself wanting to smart-control more than one or two devices in the same area.
+
+## Frequently asked questions
+
+**Do smart plugs work if my internet goes down?**
+
+Basic on/off control from a physical button on the plug itself usually still works without internet, but app control, voice commands, and scheduled automations all require an internet connection since the commands route through the cloud rather than staying local — a real limitation worth knowing before you rely on one for something important.
+
+**Are smart plugs safe to use with high-power appliances like space heaters?**
+
+Check the wattage rating on the specific plug before using it with anything that draws heavy current — most basic smart plugs like these three are rated for common household loads (lamps, fans, small electronics) but not necessarily for space heaters or other high-draw appliances, which can overheat an underrated plug.
+
+**Can I control multiple smart plugs from different brands in one app?**
+
+Not natively in most cases — Wyze and Wemo each use their own app, though both can connect to a shared voice assistant (Alexa or Google Assistant) for unified voice control even across brands. If having everything in a single app matters to you, sticking with one brand's ecosystem is simpler.
