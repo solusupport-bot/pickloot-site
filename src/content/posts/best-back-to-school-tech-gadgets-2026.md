@@ -1,5 +1,5 @@
 ---
-title: "Best Back-to-School Tech Gadgets for 2026 (Actually Worth Buying)"
+title: "Best Back-to-School Tech Gadgets for 2026 (Worth Buying)"
 description: "From noise-cancelling earbuds to a battery pack that survives a full week of classes, here are the back-to-school gadgets worth the money in 2026."
 publishDate: 2026-07-31
 category: "Tech & Gadgets"

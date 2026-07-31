@@ -1,5 +1,5 @@
 ---
-title: "Best Home Espresso Machines Under $200 in 2026 (Honest Expectations)"
+title: "Best Home Espresso Machines Under $200 in 2026"
 description: "Real espresso quality usually starts closer to $350, but here's what you can actually get for under $200 — and where the compromises are."
 publishDate: 2026-07-19
 category: "Home & Kitchen"

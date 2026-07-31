@@ -1,5 +1,5 @@
 ---
-title: "Best Laptop Backpacks in 2026 (Budget, Mid-Range, and Premium)"
+title: "Best Laptop Backpacks in 2026 (Budget to Premium)"
 description: "From a $17 student backpack to a $200+ business bag built to last, here's which laptop backpack fits your daily commute."
 publishDate: 2026-07-14
 category: "Tech & Gadgets"
