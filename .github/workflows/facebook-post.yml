@@ -1,0 +1,34 @@
+name: Post to Facebook
+
+on:
+  schedule:
+    # 3x/day, ~8h apart, offset by 25 min from the top of the hour
+    # (fewer than Bluesky's 6x/day — Facebook's algorithm penalizes
+    # over-posting more than Bluesky's chronological feed does)
+    - cron: '25 2,10,18 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Post oldest queued caption to Facebook Page
+        env:
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+        run: python3 scripts/post_to_facebook.py
+
+      - name: Commit queue state (mark post as sent)
+        run: |
+          git config user.email "automation@pickloot.com"
+          git config user.name "PickLoot Automation"
+          git add social/facebook/
+          git diff --cached --quiet || git commit -m "chore: mark Facebook post as sent [skip ci]"
+          git push
