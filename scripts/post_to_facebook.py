@@ -8,8 +8,12 @@ Mirrors scripts/post_to_bluesky.py's queue-drain pattern.
 
 Required environment variables (set as GitHub repo secrets):
   FACEBOOK_PAGE_ID            Numeric Page ID for the PickLoot Facebook Page
-  FACEBOOK_PAGE_ACCESS_TOKEN  A long-lived (or never-expiring) Page Access Token
-                               with pages_manage_posts permission
+  FACEBOOK_PAGE_ACCESS_TOKEN  An access token that can manage the Page. This may
+                               be EITHER a Page access token OR a User access
+                               token that holds pages_manage_posts for the Page
+                               — the script resolves the correct Page token at
+                               runtime (see resolve_page_token), so it doesn't
+                               matter which type was pasted into the secret.
 
 Caption file format (plain .txt): the caption text as it should appear in the
 post, ending with the pickloot.com blog URL. The trailing URL is extracted and
@@ -20,6 +24,7 @@ import json
 import os
 import re
 import sys
+import urllib.parse
 import urllib.request
 import urllib.error
 from pathlib import Path
@@ -27,6 +32,7 @@ from pathlib import Path
 PENDING_DIR = Path("social/facebook/pending")
 POSTED_DIR = Path("social/facebook/posted")
 GRAPH_API_VERSION = "v21.0"
+GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
 MAX_CHARS = 63206  # Facebook's post length limit (generous; captions are short anyway)
 
 URL_PATTERN = re.compile(r"(?:https?://)?(?:www\.)?pickloot\.com(?:/[^\s]*)?")
@@ -41,10 +47,44 @@ def extract_link(text):
     return display if display.startswith("http") else f"https://{display}"
 
 
-def api_post(page_id, payload, token):
-    import urllib.parse
+def api_get(path, params):
+    url = f"{GRAPH_BASE}/{path}?" + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, method="GET")
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"GET {path} failed: HTTP {e.code} {body}") from e
 
-    url = f"https://graph.facebook.com/{GRAPH_API_VERSION}/{page_id}/feed"
+
+def resolve_page_token(page_id, token):
+    """Return a Page access token for page_id, given either a Page or User token.
+
+    We can't tell from the token string alone whether the secret holds a Page
+    token or a User token (a common point of confusion when generating tokens in
+    the Graph API Explorer). So:
+      1. Ask `/{page_id}?fields=access_token` — when `token` is a User token that
+         manages the Page, Facebook returns the Page's own access token here.
+      2. If that yields a usable token, use it (this is the correct Page token
+         and, if the User token was long-lived, is itself long-lived).
+      3. Otherwise fall back to the token as-is (it was already a Page token).
+    """
+    try:
+        data = api_get(str(page_id), {"fields": "access_token", "access_token": token})
+        page_token = data.get("access_token")
+        if page_token:
+            print("Resolved a Page access token from the provided token.")
+            return page_token
+    except RuntimeError as e:
+        # Most likely the provided token is already a Page token (which can't read
+        # another object's `access_token` field) — fall through and use it directly.
+        print(f"Could not derive a Page token ({e}); using the provided token as-is.")
+    return token
+
+
+def post_to_feed(page_id, payload, token):
+    url = f"{GRAPH_BASE}/{page_id}/feed"
     payload = dict(payload)
     payload["access_token"] = token
     data = urllib.parse.urlencode(payload).encode("utf-8")
@@ -82,9 +122,11 @@ def main():
     if link:
         payload["link"] = link
 
+    page_token = resolve_page_token(page_id, token)
+
     print(f"Posting {target.name} ({len(text)} chars, link={link})...")
 
-    result = api_post(page_id, payload, token)
+    result = post_to_feed(page_id, payload, page_token)
     print(f"Posted: {result.get('id')}")
 
     target.rename(POSTED_DIR / target.name)
