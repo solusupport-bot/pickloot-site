@@ -39,12 +39,22 @@ def api_post(endpoint, payload, token=None):
 
 
 def build_link_facets(text):
-    """Bluesky doesn't auto-linkify URLs — we have to supply byte-offset facets ourselves."""
+    """Bluesky doesn't auto-linkify URLs — we have to supply byte-offset facets ourselves.
+
+    Captions are written as bare domains without a scheme (e.g. "pickloot.com/blog/x/"),
+    so this matches both scheme-full (https://...) and scheme-less (pickloot.com/...)
+    mentions of the site, and always resolves the facet's target URI to a full https://
+    link regardless of how it's displayed in the post text.
+    """
     facets = []
-    for m in re.finditer(r"https?://[^\s]+", text):
-        url = m.group(0).rstrip(".,)")
+    pattern = re.compile(r"(?:https?://)?(?:www\.)?pickloot\.com(?:/[^\s]*)?")
+    for m in pattern.finditer(text):
+        display = m.group(0).rstrip(".,)")
+        if not display:
+            continue
+        url = display if display.startswith("http") else f"https://{display}"
         start_char = m.start()
-        end_char = start_char + len(url)
+        end_char = start_char + len(display)
         byte_start = len(text[:start_char].encode("utf-8"))
         byte_end = len(text[:end_char].encode("utf-8"))
         facets.append({
