@@ -1,0 +1,32 @@
+name: Post to Bluesky
+
+on:
+  schedule:
+    # 6x/day, ~4h apart, offset by 15 min from the top of the hour
+    - cron: '15 1,5,9,13,17,21 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Post oldest queued caption to Bluesky
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+        run: python3 scripts/post_to_bluesky.py
+
+      - name: Commit queue state (mark post as sent)
+        run: |
+          git config user.email "automation@pickloot.com"
+          git config user.name "PickLoot Automation"
+          git add social/bluesky/
+          git diff --cached --quiet || git commit -m "chore: mark Bluesky post as sent [skip ci]"
+          git push
