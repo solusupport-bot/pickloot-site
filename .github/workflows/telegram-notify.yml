@@ -1,0 +1,32 @@
+name: Send Telegram Notifications
+
+on:
+  schedule:
+    # every 5 minutes — notifications should reach Telegram close to real-time
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Send pending Telegram messages
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 scripts/post_to_telegram.py
+
+      - name: Commit queue state (mark messages as sent)
+        run: |
+          git config user.email "automation@pickloot.com"
+          git config user.name "PickLoot Automation"
+          git add notify/telegram/
+          git diff --cached --quiet || git commit -m "chore: mark Telegram notification(s) as sent [skip ci]"
+          git push
