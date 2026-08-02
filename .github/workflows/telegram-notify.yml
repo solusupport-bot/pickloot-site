@@ -2,8 +2,10 @@ name: Send Telegram Notifications
 
 on:
   schedule:
-    # every 5 minutes — notifications should reach Telegram close to real-time
-    - cron: '*/5 * * * *'
+    # every 15 minutes — every-5-min schedules can trigger GitHub's abuse
+    # prevention throttling and cause scheduled workflows repo-wide to stop
+    # firing silently. 15 min is still near-real-time and much safer.
+    - cron: '*/15 * * * *'
   workflow_dispatch: {}
 
 permissions:
