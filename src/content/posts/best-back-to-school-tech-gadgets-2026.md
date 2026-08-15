@@ -57,7 +57,7 @@ products:
       - "Takes a bit of practice to get the angle right"
 ---
 
-Back-to-school shopping season always turns into a flood of "must-have" gadget lists, and most of them are just Amazon affiliate filler. We tried to do the opposite here: pick a short list of things that solve an actual problem students run into — dead batteries, lost files, noisy study spaces, bad posture from hunching over a laptop — rather than gadgets that just look good in a dorm-room photo.
+Back-to-school shopping season always turns into a flood of "must-have" gadget lists, and most of them are just Amazon affiliate filler. Our goal here was the opposite: pick a short list of things that solve an actual problem students run into — dead batteries, lost files, noisy study spaces, bad posture from hunching over a laptop — rather than gadgets that just look good in a dorm-room photo.
 
 ## How we picked these
 
