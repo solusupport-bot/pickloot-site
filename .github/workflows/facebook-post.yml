@@ -1,11 +1,14 @@
 name: Post to Facebook
 
 on:
-  schedule:
-    # 3x/day, ~8h apart, offset by 25 min from the top of the hour
-    # (fewer than Bluesky's 6x/day — Facebook's algorithm penalizes
-    # over-posting more than Bluesky's chronological feed does)
-    - cron: '25 2,10,18 * * *'
+  # DISABLED 2026-08-18 at the site owner's request: automatic Facebook
+  # posting is paused. The workflow, script, and secrets are all still in
+  # place — re-enable by uncommenting the schedule below.
+  # (Old cadence: 3x/day, ~8h apart, offset by 25 min from the top of the
+  # hour — fewer than Bluesky's 6x/day because Facebook's algorithm
+  # penalizes over-posting more than Bluesky's chronological feed does.)
+  # schedule:
+  #   - cron: '25 2,10,18 * * *'
   workflow_dispatch: {}
 
 permissions:
