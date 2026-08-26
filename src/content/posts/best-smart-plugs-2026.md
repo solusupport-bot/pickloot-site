@@ -12,7 +12,7 @@ products:
       - "Small footprint — doesn't block the neighboring outlet"
       - "Fast response time, under 1 second"
       - "Works with both Alexa and Google Assistant"
-      - "Best value in this category"
+      - "Cheap enough to buy several without hesitating"
     cons:
       - "No Apple HomeKit support"
       - "Slightly bulkier than the HomeKit-specific option"
@@ -42,7 +42,7 @@ Smart plugs are the cheapest, lowest-commitment way to try smart home automation
 
 ## If you use Alexa or Google Assistant
 
-The Wyze Plug is the clear default here — it's inexpensive enough to buy several without thinking twice, responds quickly, and works reliably with both major voice assistant ecosystems. There's very little reason to spend more unless you specifically need HomeKit.
+The Wyze Plug fits well here — it's inexpensive enough to buy several without thinking twice, responds quickly, and works reliably with both major voice assistant ecosystems. It covers the job unless you specifically need HomeKit.
 
 ## If you're in the Apple ecosystem
 
@@ -54,7 +54,7 @@ If you're trying to control a full entertainment center or a desk setup with sev
 
 ## Bottom line
 
-Start with the Wyze Plug unless you're specifically an Apple Home user, in which case get the Wemo. Upgrade to the Monoprice Stitch strip once you find yourself wanting to smart-control more than one or two devices in the same area.
+The Wyze Plug fits best for Alexa or Google Assistant households. The Wemo fits better if you're specifically in the Apple Home ecosystem. The Monoprice Stitch strip makes sense once you want to smart-control more than one or two devices in the same area.
 
 ## Frequently asked questions
 

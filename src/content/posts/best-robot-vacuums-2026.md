@@ -9,7 +9,7 @@ products:
     amazonUrl: "https://www.amazon.com/s?k=DREAME+D10+Plus+Gen+2+Robot+Vacuum"
     price: "~$300"
     pros:
-      - "Best value in the budget tier"
+      - "Cheapest of the three by a wide margin"
       - "Excellent edge cleaning for the price"
       - "Feature-rich companion app despite the low cost"
     cons:
@@ -30,7 +30,7 @@ products:
     price: "~$1,000-1,500 (frequently discounted)"
     pros:
       - "Excellent overall cleaning with smart object detection"
-      - "Best-in-class navigation and obstacle avoidance"
+      - "Notably stronger navigation and obstacle avoidance than the other two tiers"
       - "Exceptional hardfloor and mopping performance"
     cons:
       - "Expensive even on sale"

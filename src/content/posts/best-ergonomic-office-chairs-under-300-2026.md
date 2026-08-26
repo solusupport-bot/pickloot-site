@@ -53,7 +53,7 @@ The BV chair's split-backrest design is a genuinely different approach — it al
 
 ## Bottom line
 
-If budget is the main constraint, the Colamy Kirin is the best starting point. If you can stretch to $280, the Colamy Ergonomic's seat depth adjustment and headrest make a real difference for full-day comfort. Consider the BV chair specifically if you know a traditional rigid backrest doesn't work well for you.
+If budget is the main constraint, the Colamy Kirin fits best. If you can stretch to $280, the Colamy Ergonomic's seat depth adjustment and headrest make a real difference for full-day comfort. Consider the BV chair specifically if you know a traditional rigid backrest doesn't work well for you.
 
 ## Frequently asked questions
 

@@ -11,7 +11,7 @@ products:
     pros:
       - "Works with dairy, oat, almond, and other alt-milks without adjustment"
       - "Includes both a whisk attachment and a pouring spout"
-      - "Best value for everyday use"
+      - "Inexpensive way to start frothing at home"
     cons:
       - "Not dishwasher safe — hand wash only"
       - "Foam quality isn't quite café-level"
@@ -40,7 +40,7 @@ products:
 
 If you've ever tried to make café-style lattes at home, you already know the milk is the hard part — not the espresso. We compared three frothers at very different price points to figure out where the money actually buys better foam, and where it's just paying for extra features you won't use.
 
-## The $40 pick is the one most people should start with
+## The $40 option: good for everyday use
 
 The Instant Milk Frother covers the basics well: it handles both dairy and alt-milks without fuss, and having both a whisk attachment and a pouring spout in one unit means you're not buying two separate tools. The tradeoff is that it's hand-wash only and the foam is good, not café-quality. For most home coffee setups, that's a fine trade for the price.
 
@@ -54,7 +54,7 @@ The Breville only makes sense if you're making milk drinks daily for a household
 
 ## Bottom line
 
-Start with the budget pick unless you have a specific reason not to. Upgrade to the compact option if counter space is tight and you're mostly making drinks for yourself. Only go for the premium machine if you're regularly frothing for more than one or two people at a time.
+The budget pick fits best for everyday dairy or alt-milk frothing without spending much. The compact option fits better if counter space is tight and you're mostly making drinks for yourself. The premium machine is worth it if you're regularly frothing for more than one or two people at a time.
 
 ## Frequently asked questions
 

@@ -53,7 +53,7 @@ This is the one scenario where the Rubbermaid and OXO options don't help you —
 
 ## Bottom line
 
-Start with the Rubbermaid set for everyday leftovers and weekly meal prep. Switch to glass if plastic staining or smell retention bothers you. Add an insulated jar specifically for situations where you need hot food to stay hot without reheating.
+The Rubbermaid set fits best for everyday leftovers and weekly meal prep. Glass fits better if plastic staining or smell retention bothers you. An insulated jar is worth adding specifically for situations where you need hot food to stay hot without reheating.
 
 ## Frequently asked questions
 

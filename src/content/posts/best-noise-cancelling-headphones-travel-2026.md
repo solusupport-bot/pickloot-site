@@ -19,7 +19,7 @@ products:
     amazonUrl: "https://www.amazon.com/s?k=Sony+WH-1000XM6"
     price: "~$449.99"
     pros:
-      - "Class-leading active noise cancellation"
+      - "Among the strongest active noise cancellation available right now"
       - "Lightweight design despite the premium price"
       - "30-hour battery life"
     cons:
@@ -31,7 +31,7 @@ products:
     pros:
       - "Powerful ANC in a much more portable earbud form factor"
       - "Comfortable, secure fit for long wear"
-      - "Best pick if you don't want full over-ear headphones"
+      - "Fits well if you don't want full over-ear headphones"
     cons:
       - "Battery life limited to about 6 hours with ANC on"
       - "Case needed for recharging on longer trips"

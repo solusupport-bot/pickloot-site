@@ -53,7 +53,7 @@ This is the tier for a great room, an open-concept main floor, or anyone dealing
 
 ## Bottom line
 
-The Core 300S is the easy choice for a single room where quiet, low cost, and simplicity matter more than raw output. The Airmega 200M is the better fit once you're covering a larger bedroom or open living area and want faster air turnover with real odor control. The Airmega ProX is worth the jump only if you're purifying a genuinely large or open space, dealing with smoke or heavy allergens, or want the fastest air changes available — otherwise its higher filter costs and bulk aren't worth it for a smaller home.
+The Core 300S fits best for a single room where quiet, low cost, and simplicity matter more than raw output. The Airmega 200M is the better fit once you're covering a larger bedroom or open living area and want faster air turnover with real odor control. The Airmega ProX is worth the jump only if you're purifying a genuinely large or open space, dealing with smoke or heavy allergens, or want the fastest air changes available — otherwise its higher filter costs and bulk aren't worth it for a smaller home.
 
 ## Frequently asked questions
 

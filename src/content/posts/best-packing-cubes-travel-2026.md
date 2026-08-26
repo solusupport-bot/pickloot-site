@@ -9,7 +9,7 @@ products:
     amazonUrl: "https://www.amazon.com/s?k=Veken+6+Set+Packing+Cubes"
     price: "~$19"
     pros:
-      - "Best overall value in this category"
+      - "Cheapest way to start if you just need organization"
       - "Includes a dedicated laundry bag for dirty clothes"
       - "Enough sizes in one set to organize a full carry-on"
     cons:
@@ -53,7 +53,7 @@ Peak Design's cubes cost roughly double the Gonex compression set for a similar 
 
 ## Bottom line
 
-Start with basic organization cubes unless you specifically struggle to fit your luggage closed — in that case, compression cubes solve a real problem rather than just being a nice-to-have. Only go premium if you travel frequently enough to wear out a budget set within a year or two.
+Basic organization cubes fit best if your bag usually has room to spare and you just want it organized. Compression cubes solve a real problem if you specifically struggle to fit your luggage closed. Premium cubes are worth it only if you travel frequently enough to wear out a budget set within a year or two.
 
 ## Frequently asked questions
 

@@ -9,7 +9,7 @@ products:
     amazonUrl: "https://www.amazon.com/s?k=Vivo+K+Series+Desk+Converter+32+inch"
     price: "~$139.99"
     pros:
-      - "Best value in this category by a wide margin"
+      - "Noticeably cheaper than the electric options here"
       - "Sturdy vertical-lift design that doesn't wobble"
       - "Compact footprint fits most desks"
     cons:
@@ -45,11 +45,11 @@ If you're the type who sets a height in the morning and stays there most of the 
 
 ## What actually matters beyond the lift mechanism
 
-Stability at full height is the thing cheap converters get wrong most often — a wobbly monitor while you're typing is worse than not having a converter at all. All three of these held up well in testing on that front, which is why we picked them over cheaper alternatives that didn't.
+Stability at full height is the thing cheap converters get wrong most often — a wobbly monitor while you're typing is worse than not having a converter at all. Manufacturer specs and owner reviews consistently point to sturdy, wobble-free builds on all three of these, unlike the wobbling that's a common complaint on cheaper converters.
 
 ## Bottom line
 
-Start with the manual option unless you already know you'll be adjusting height multiple times a day — in that case, the electric converters pay for themselves in convenience. Between the two electric options, the FlexiSpot is the better entry point; the Uplift is worth it mainly if you're running a heavier multi-monitor setup that needs the extra weight capacity.
+A manual converter fits best if you set a height once and stay there most of the day. Electric converters are worth the price if you switch positions every hour or two, since the convenience adds up fast. Between the two electric options, the FlexiSpot fits as the more affordable entry point; the Uplift is worth it mainly if you're running a heavier multi-monitor setup that needs the extra weight capacity.
 
 ## Frequently asked questions
 

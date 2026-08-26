@@ -53,7 +53,7 @@ The Cosori Iconic's ceramic basket is the real selling point here — it's notic
 
 ## Bottom line
 
-Start with the Instant Vortex Plus unless you have a specific reason not to — it's the best value here. Upgrade to the Ninja if you want multi-cooker functionality, or to the Cosori if cleanup ease and countertop looks matter more to you than price.
+The Instant Vortex Plus fits best if price and simplicity matter most to you. The Ninja fits better if you specifically want multi-cooker functionality in the same footprint. The Cosori is worth the jump if cleanup ease and countertop looks matter more to you than price.
 
 ## Frequently asked questions
 
