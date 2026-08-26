@@ -13,13 +13,20 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+const updatedDate = post.data.updatedDate ?? post.data.publishDate;
 const dateStr = post.data.publishDate.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+const updatedDateStr = updatedDate.toLocaleDateString('en-US', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const isoDate = post.data.publishDate.toISOString();
+const isoUpdatedDate = updatedDate.toISOString();
 
 const articleSchema = {
   '@context': 'https://schema.org',
@@ -27,7 +34,7 @@ const articleSchema = {
   headline: post.data.title,
   description: post.data.description,
   datePublished: isoDate,
-  dateModified: isoDate,
+  dateModified: isoUpdatedDate,
   author: {
     '@type': 'Organization',
     name: 'PickLoot',
@@ -61,7 +68,9 @@ const itemListSchema = post.data.products && post.data.products.length > 0 ? {
   {itemListSchema && <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />}
   <span class="category-tag">{post.data.category}</span>
   <h1>{post.data.title}</h1>
-  <p class="meta">Published {dateStr}</p>
+  <p class="meta">
+    Written &amp; researched by the PickLoot Editorial Team &middot; Published {dateStr}{isoUpdatedDate !== isoDate && <> &middot; Updated {updatedDateStr}</>} &middot; <a href="/editorial-policy">How we pick these</a>
+  </p>
 
   <div class="disclosure-banner">
     As an Amazon Associate, PickLoot earns from qualifying purchases. Some links on this page are affiliate links — see our <a href="/disclaimer">affiliate disclosure</a>.
