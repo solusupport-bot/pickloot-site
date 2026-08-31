@@ -1,0 +1,1 @@
+A 2,000MB/s portable SSD is pointless if your laptop's port can't hit that speed. We flagged which port type each drive actually needs to reach its rated speed: pickloot.com/blog/best-portable-ssds-2026/
