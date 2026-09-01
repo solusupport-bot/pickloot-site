@@ -1,0 +1,1 @@
+A power bank's charging speed can drop noticeably once it dips below 20% -- a spec most listings skip. We compared three built-in-cable banks on real output, not just mAh: pickloot.com/blog/best-power-banks-built-in-cables-2026/
