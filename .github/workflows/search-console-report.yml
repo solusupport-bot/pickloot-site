@@ -1,0 +1,66 @@
+name: Search Console report
+
+# Commits a weekly snapshot of Search Console impressions/clicks into
+# logs/search-console/, so the numbers can be read straight from the repo
+# without anyone holding Google credentials.
+#
+# Needs one repo secret: GSC_SERVICE_ACCOUNT_JSON (see the setup notes at the
+# top of scripts/fetch_search_console.py). Optionally GSC_SITE_URL if the
+# property is not https://pickloot.com/.
+#
+# The job is a no-op that exits cleanly while the secret is unset, so adding
+# this workflow before the credential exists does not produce failure noise.
+
+on:
+  schedule:
+    # Mondays, 06:40 UTC — after Search Console has settled the weekend.
+    - cron: '40 6 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Skip if the credential is not configured yet
+        id: gate
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ -z "$GSC_SERVICE_ACCOUNT_JSON" ]; then
+            echo "GSC_SERVICE_ACCOUNT_JSON is not set — nothing to do yet."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.ready == 'true'
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        if: steps.gate.outputs.ready == 'true'
+        run: pip install --quiet google-auth requests
+
+      - name: Fetch Search Console performance
+        if: steps.gate.outputs.ready == 'true'
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+        run: python3 scripts/fetch_search_console.py
+
+      - name: Commit the snapshot
+        if: steps.gate.outputs.ready == 'true'
+        run: |
+          git config user.email "automation@pickloot.com"
+          git config user.name "PickLoot Automation"
+          git add logs/search-console/
+          git diff --cached --quiet || git commit -m "chore: search console snapshot [skip ci]"
+          git push
