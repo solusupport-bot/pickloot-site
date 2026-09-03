@@ -3,6 +3,10 @@ title: "Best Dog Beds in 2026 (Budget to Orthopedic)"
 description: "We compared dog beds from a $40 machine-washable sofa bed to a $219 large-breed orthopedic bed backed by a 10-year no-flatten warranty."
 publishDate: 2026-08-10
 category: "Pet Supplies"
+heroImage: "https://images.unsplash.com/photo-1581888227599-779811939961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8ZG9nJTIwYmVkfGVufDB8MHx8fDE3ODg0MTcxNzJ8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A dog resting in a grey dog bed with a blanket"
+heroImageCreditName: "Jamie Street"
+heroImageCreditUrl: "https://unsplash.com/@jamie452?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "FurHaven Sofa-Style Orthopedic Dog Bed"

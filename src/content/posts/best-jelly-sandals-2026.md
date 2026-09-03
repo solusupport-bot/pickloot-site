@@ -3,6 +3,10 @@ title: "Best Jelly Sandals in 2026 (Budget to Designer)"
 description: "Jelly sandals are back in a big way for 2026. We compared three tiers, from $28 everyday slides to a $120 designer-adjacent heel."
 publishDate: 2026-08-05
 category: "Fashion & Accessories"
+heroImage: "https://images.unsplash.com/photo-1603487742131-4160ec999306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8c2FuZGFsc3xlbnwwfHx8fDE3ODg0MTc1Njl8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A pair of slide sandals"
+heroImageCreditName: "Jakob Owens"
+heroImageCreditUrl: "https://unsplash.com/@jakobowens1?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Ipanema Fashion Jelly Sandals"

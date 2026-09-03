@@ -63,7 +63,7 @@ const itemListSchema = post.data.products && post.data.products.length > 0 ? {
   })),
 } : null;
 ---
-<Layout title={post.data.title} description={post.data.description}>
+<Layout title={post.data.title} description={post.data.description} image={post.data.heroImage}>
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   {itemListSchema && <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />}
   <span class="category-tag">{post.data.category}</span>
@@ -72,8 +72,19 @@ const itemListSchema = post.data.products && post.data.products.length > 0 ? {
     Written &amp; researched by the PickLoot Editorial Team &middot; Published {dateStr}{isoUpdatedDate !== isoDate && <> &middot; Updated {updatedDateStr}</>} &middot; <a href="/editorial-policy">How we pick these</a>
   </p>
 
+  {post.data.heroImage && (
+    <figure class="hero-image">
+      <img src={post.data.heroImage} alt={post.data.heroImageAlt ?? post.data.title} loading="eager" width="1080" height="720" />
+      {post.data.heroImageCreditName && (
+        <figcaption>
+          Photo by <a href={post.data.heroImageCreditUrl} target="_blank" rel="noopener">{post.data.heroImageCreditName}</a> on <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a> — for illustration; not the specific product reviewed.
+        </figcaption>
+      )}
+    </figure>
+  )}
+
   <div class="disclosure-banner">
-    As an Amazon Associate, PickLoot earns from qualifying purchases. Some links on this page are affiliate links — see our <a href="/disclaimer">affiliate disclosure</a>.
+    PickLoot displays advertising and may earn a commission from qualifying purchases made through affiliate links on this page, at no additional cost to you — see our <a href="/disclaimer">affiliate disclosure</a> for which programs are currently active.
   </div>
 
   <div class="prose">

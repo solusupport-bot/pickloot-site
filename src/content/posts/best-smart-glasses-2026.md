@@ -3,6 +3,10 @@ title: "Best Smart Glasses in 2026 (Budget to AI Display)"
 description: "Real prices and specs on three smart glasses in 2026, from $270 audio-only frames to Meta's $799 AI display glasses with a gesture-control wristband."
 publishDate: 2026-08-25
 category: "Tech & Gadgets"
+heroImage: "https://images.unsplash.com/photo-1556306510-31ca015374b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "A pair of black-framed eyeglasses resting on a surface."
+heroImageCreditName: "Claudio Schwarz"
+heroImageCreditUrl: "https://unsplash.com/@purzlbaum?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Amazon Echo Frames (3rd Gen)"

@@ -3,6 +3,10 @@ title: "Best Weighted Blankets in 2026 for Better Sleep"
 description: "From a $70 budget pick to a $249 breathable option, here's how to choose a weighted blanket that actually stays comfortable all night."
 publishDate: 2026-07-23
 category: "Home & Lifestyle"
+heroImage: "https://images.unsplash.com/photo-1674475760738-8c7af859f821?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "A folded blanket draped over the arm of a couch."
+heroImageCreditName: "Bearaby"
+heroImageCreditUrl: "https://unsplash.com/@mybearaby?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "YnM Cooling Bamboo Weighted Blanket"

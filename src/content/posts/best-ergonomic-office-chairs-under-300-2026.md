@@ -3,6 +3,10 @@ title: "Best Ergonomic Office Chairs Under $300 in 2026"
 description: "You don't need to spend $800 on a Herman Miller to sit comfortably through a workday — here are three under-$300 chairs actually worth buying."
 publishDate: 2026-07-22
 category: "Home Office"
+heroImage: "https://images.unsplash.com/photo-1594235048794-fae8583a5af5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8NXx8b2ZmaWNlJTIwY2hhaXJ8ZW58MHwwfHx8MTc4ODQxNzE3NXwy&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "Black rolling office chairs around a table"
+heroImageCreditName: "Uneebo Office Design"
+heroImageCreditUrl: "https://unsplash.com/@uneebo_office_design?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Colamy Kirin Chair"

@@ -3,6 +3,10 @@ title: "Best Countertop Water Filters for PFAS in 2026"
 description: "PFAS 'forever chemicals' are 2026's biggest water-filter search. We compared a $41 Brita pitcher, $200 Ninja HydraSense, and $449 AquaTru RO system."
 publishDate: 2026-08-18
 category: "Home & Kitchen"
+heroImage: "https://images.unsplash.com/photo-1657778752979-90b85022f6fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Nnx8d2F0ZXIlMjBkaXNwZW5zZXJ8ZW58MHwwfHx8MTc4ODQxODQzM3wy&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "Several white water purification units arranged on a counter"
+heroImageCreditName: "RephiLe water"
+heroImageCreditUrl: "https://unsplash.com/@revolution_in_filtration?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Brita Elite Water Filter Pitcher"

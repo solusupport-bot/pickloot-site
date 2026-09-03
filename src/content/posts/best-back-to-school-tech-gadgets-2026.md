@@ -3,6 +3,10 @@ title: "Best Back-to-School Tech Gadgets for 2026 (Worth Buying)"
 description: "From noise-cancelling earbuds to a battery pack that survives a full week of classes, here are the back-to-school gadgets worth the money in 2026."
 publishDate: 2026-07-31
 category: "Tech & Gadgets"
+heroImage: "https://images.unsplash.com/photo-1513258496099-48168024aec0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8c3R1ZGVudCUyMGxhcHRvcHxlbnwwfDB8fHwxNzg4NDE4ODU5fDI&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A person wearing headphones while working on a laptop at a desk"
+heroImageCreditName: "Wes Hicks"
+heroImageCreditUrl: "https://unsplash.com/@sickhews?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Anker Soundcore Liberty Air 2 Pro Wireless Earbuds"

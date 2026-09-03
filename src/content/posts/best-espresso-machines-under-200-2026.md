@@ -3,6 +3,10 @@ title: "Best Home Espresso Machines Under $200 in 2026"
 description: "Real espresso quality usually starts closer to $350, but here's what you can actually get for under $200 — and where the compromises are."
 publishDate: 2026-07-19
 category: "Home & Kitchen"
+heroImage: "https://images.unsplash.com/photo-1620807773206-49c1f2957417?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8ZXNwcmVzc28lMjBtYWNoaW5lfGVufDB8MHx8fDE3ODg0MTcxNzZ8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A black and silver espresso machine on a kitchen counter"
+heroImageCreditName: "Kevin Schmid"
+heroImageCreditUrl: "https://unsplash.com/@lighttouchedphotography?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "De'Longhi Stilosa"

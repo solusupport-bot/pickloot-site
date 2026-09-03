@@ -3,6 +3,10 @@ title: "Best Reusable Water Bottles in 2026"
 description: "From a $15 durable plastic bottle to a $40 insulated stainless steel tumbler, here's which reusable water bottle actually fits how you drink water."
 publishDate: 2026-07-13
 category: "Home & Lifestyle"
+heroImage: "https://images.unsplash.com/photo-1664714628878-9d2aa898b9e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "A white reusable water bottle with a black cap."
+heroImageCreditName: "personalgraphic.com"
+heroImageCreditUrl: "https://unsplash.com/@personal_graphic?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Nalgene Sustain Tritan BPA-Free (32 oz.)"

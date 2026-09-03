@@ -3,6 +3,10 @@ title: "Best Portable Air Conditioners in 2026"
 description: "Heat waves keep breaking records — we compared a $300 Black+Decker unit, a quiet Midea inverter model, and a $590 Honeywell smart AC."
 publishDate: 2026-08-31
 category: "Home & Lifestyle"
+heroImage: "https://images.unsplash.com/photo-1762341123870-d706f257a12e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8NXx8YWlyJTIwY29uZGl0aW9uaW5nfGVufDB8MHx8fDE3ODg0MTc0NTF8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A white air conditioner unit with a digital display showing 22 degrees."
+heroImageCreditName: "Zulfugar Karimov"
+heroImageCreditUrl: "https://unsplash.com/@zulfugarkarimov?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "BLACK+DECKER BPACT08WT Portable Air Conditioner"

@@ -3,6 +3,10 @@ title: "Best AirPods & Earbuds Cleaning Kits in 2026"
 description: "AirPods cleaning kits are suddenly all over Amazon's bestseller lists — we compared an $8 pen, an $18 multi-tool, and a $25 kit to find the right fit."
 publishDate: 2026-08-27
 category: "Tech & Gadgets"
+heroImage: "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8d2lyZWxlc3MlMjBlYXJidWRzfGVufDB8MHx8fDE3ODg0MTcxNjZ8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A white wireless earbuds charging case sitting on a table"
+heroImageCreditName: "John M. Smit"
+heroImageCreditUrl: "https://unsplash.com/@john_smit?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Hagibis 3-in-1 Cleaning Pen"

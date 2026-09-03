@@ -3,6 +3,10 @@ title: "Best Carry-On Luggage in 2026"
 description: "From a $60 Amazon Basics hardside spinner to a $275 Away polycarbonate case, here's how carry-on luggage compares in 2026."
 publishDate: 2026-09-01
 category: "Home & Lifestyle"
+heroImage: "https://images.unsplash.com/photo-1670888664952-efff442ec0d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8c3VpdGNhc2V8ZW58MHwwfHx8MTc4ODQxODE0N3wy&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A blue hardside carry-on suitcase sitting on a wooden floor"
+heroImageCreditName: "American Green Travel"
+heroImageCreditUrl: "https://unsplash.com/@americangreentravel?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Amazon Basics 21-Inch Hardside Expandable Spinner Carry-On"

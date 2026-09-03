@@ -3,6 +3,10 @@ title: "Best Robot Vacuums in 2026: Budget, Mid-Range, and Premium"
 description: "Robot vacuums range from $300 to $1,500 and the difference isn't just marketing — here's what you actually get at each price tier."
 publishDate: 2026-07-27
 category: "Home & Kitchen"
+heroImage: "https://images.unsplash.com/photo-1653990480360-31a12ce9723e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "A black robot vacuum cleaner on a wooden floor."
+heroImageCreditName: "Onur Binay"
+heroImageCreditUrl: "https://unsplash.com/@onurbinay?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "DREAME D10 Plus Gen 2"

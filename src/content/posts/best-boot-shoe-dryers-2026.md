@@ -3,6 +3,10 @@ title: "Best Boot & Shoe Dryers in 2026"
 description: "From a $29 timer-based dryer to a $90 forced-air model, here's how to pick the right boot and shoe dryer for wet gear this season."
 publishDate: 2026-07-31
 category: "Home & Lifestyle"
+heroImage: "https://images.unsplash.com/photo-1605733160314-4fc7dac4bb16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8NXx8Ym9vdHN8ZW58MHwwfHx8MTc4ODQxNzU5Nnwy&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A close-up of a pair of brown leather boots"
+heroImageCreditName: "mostafa mahmoudi"
+heroImageCreditUrl: "https://unsplash.com/@mostafa_mahmoudi24?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Scienbeauty Electric Shoe Dryer"

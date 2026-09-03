@@ -3,6 +3,10 @@ title: "Best Pet Water Fountains in 2026 (Budget to Smart)"
 description: "We compared automatic pet water fountains from a $25 plastic pick to a $79 WiFi-connected smart fountain for cats and dogs."
 publishDate: 2026-08-02
 category: "Pet Supplies"
+heroImage: "https://images.unsplash.com/photo-1764741368227-38ac9fd670a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8Y2F0JTIwZm91bnRhaW58ZW58MHwwfHx8MTc4ODQxNzQxN3wy&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A cat drinking from a splashing water fountain."
+heroImageCreditName: "SMA Fatemi"
+heroImageCreditUrl: "https://unsplash.com/@3eyedfatemi?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Veken 95oz Plastic Pet Fountain"

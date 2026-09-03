@@ -3,6 +3,10 @@ title: "Best Smart Plugs in 2026 (Cheap and They Actually Work)"
 description: "Smart plugs are one of the least expensive ways to start a smart home — here's which ones respond fast and don't lock you into one ecosystem."
 publishDate: 2026-07-18
 category: "Tech & Gadgets"
+heroImage: "https://images.unsplash.com/photo-1565049981953-379c9c2a5d48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "A close-up of an electrical plug next to a wall outlet."
+heroImageCreditName: "Clint Patterson"
+heroImageCreditUrl: "https://unsplash.com/@cbpsc1?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Wyze Plug"

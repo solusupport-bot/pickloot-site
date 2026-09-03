@@ -3,6 +3,10 @@ title: "Best Standing Desk Converters in 2026 (Manual and Electric)"
 description: "You don't need a new desk to start standing while you work — here's how the cheap manual converters compare to the pricier electric ones."
 publishDate: 2026-07-26
 category: "Home Office"
+heroImage: "https://images.unsplash.com/photo-1622126755582-16754165dce8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "A monitor and keyboard set up on a standing desk."
+heroImageCreditName: "TheStandingDesk"
+heroImageCreditUrl: "https://unsplash.com/@thestandingdesk?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Vivo K Series Desk Converter (32-inch)"

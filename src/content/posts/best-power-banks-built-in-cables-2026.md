@@ -3,6 +3,10 @@ title: "Best Power Banks with Built-In Cables in 2026"
 description: "No more tangled cords: we compared three built-in-cable power banks, from a $23 compact pick to a 20,000mAh premium option."
 publishDate: 2026-08-17
 category: "Tech & Gadgets"
+heroImage: "https://images.unsplash.com/photo-1594843665794-446ce915d840?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "A red portable power bank resting on a black surface."
+heroImageCreditName: "Sai Balaji Varma Gadhiraju"
+heroImageCreditUrl: "https://unsplash.com/@saivarma2000?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Baseus Qpow2 Pro 10,000mAh Power Bank"

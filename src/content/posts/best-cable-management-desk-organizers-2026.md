@@ -3,6 +3,10 @@ title: "Best Cable Management Solutions for Your Desk in 2026"
 description: "A messy desk setup usually isn't about willpower — it's about not having the right tray, clip, or box. Here's what actually works at three different budgets."
 publishDate: 2026-07-28
 category: "Home Office"
+heroImage: "https://images.unsplash.com/photo-1760348213270-7cd00b8c3405?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8M3x8Y2FibGUlMjBtYW5hZ2VtZW50fGVufDB8MHx8fDE3ODg0MTcxNjh8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A cable organizer holding a coiled white cord under a desk"
+heroImageCreditName: "Bedirhan Gül"
+heroImageCreditUrl: "https://unsplash.com/@bedirhann?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Amazon Basics Cable Management Kit"

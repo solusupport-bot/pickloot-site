@@ -3,6 +3,10 @@ title: "Best Portable Monitors for Your Laptop in 2026"
 description: "A second screen makes a huge difference for productivity — here's which portable monitor fits your priority: value, weight, or color accuracy."
 publishDate: 2026-07-21
 category: "Tech & Gadgets"
+heroImage: "https://images.unsplash.com/photo-1666771410140-0573b232426e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8NHx8Y29tcHV0ZXIlMjBtb25pdG9yfGVufDB8MHx8fDE3ODg0MTc1OTJ8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A white computer monitor on a stand against a plain background."
+heroImageCreditName: "Mediamodifier"
+heroImageCreditUrl: "https://unsplash.com/@mediamodifier?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Arzopa Z1FC Portable Monitor"

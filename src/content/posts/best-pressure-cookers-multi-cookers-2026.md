@@ -3,6 +3,10 @@ title: "Best Pressure Cookers & Multi-Cookers in 2026"
 description: "From a $79 Instant Pot Duo to a $249 Breville Fast Slow Pro, we compared multi-cookers built for pressure cooking, slow cooking, and air frying."
 publishDate: 2026-08-30
 category: "Home & Kitchen"
+heroImage: "https://images.unsplash.com/photo-1599182345361-9542815e73f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "A white and black electric multi-cooker appliance on a kitchen counter."
+heroImageCreditName: "MChe Lee"
+heroImageCreditUrl: "https://unsplash.com/@mclee?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Instant Pot Duo 7-in-1 Electric Pressure Cooker (6 Qt)"

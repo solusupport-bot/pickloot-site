@@ -3,6 +3,10 @@ title: "Best Creatine Gummies in 2026 (Budget to Premium)"
 description: "Creatine gummies are one of 2026's fastest-growing supplement searches — we compared three tiers by dose, sugar, and testing to help you pick."
 publishDate: 2026-08-20
 category: "Fitness & Outdoors"
+heroImage: "https://images.unsplash.com/photo-1635342219731-4ae2bf39e1e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8Z3VtbWllc3xlbnwwfHx8fDE3ODg0MTc1NTd8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A pile of colorful gummy candies in assorted colors"
+heroImageCreditName: "Dmitry Dreyer"
+heroImageCreditUrl: "https://unsplash.com/@deemwave?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Jacked Factory Creatine Monohydrate Gummies"

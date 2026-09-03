@@ -3,6 +3,10 @@ title: "Best Humidifiers in 2026 (Budget, Smart, and Premium)"
 description: "From a $28 warm-mist basic to a $700 Dyson that also purifies and cools, here's which humidifier tier actually fits your room."
 publishDate: 2026-08-26
 category: "Home & Lifestyle"
+heroImage: "https://images.unsplash.com/photo-1768471569643-717e823b5f9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8aHVtaWRpZmllcnxlbnwwfHx8fDE3ODg0MTc3MjF8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A white humidifier releasing mist on a wooden desk"
+heroImageCreditName: "zeliang xiao"
+heroImageCreditUrl: "https://unsplash.com/@xiaozeliang?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Vicks Filter-Free Warm Mist Humidifier (V745A)"

@@ -3,6 +3,10 @@ title: "Best Portable Power Stations for Outages in 2026"
 description: "Hurricane season is here. We compared a $299 grab-and-go unit to a $1,999 whole-home backup station on capacity, output, and real specs."
 publishDate: 2026-08-09
 category: "Home & Lifestyle"
+heroImage: "https://images.unsplash.com/photo-1650785652040-5a2fc88ce902?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "A black and silver portable power station sitting on a wooden table."
+heroImageCreditName: "Jackery Power Station"
+heroImageCreditUrl: "https://unsplash.com/@jackery_official?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Bluetti Elite 30 V2"

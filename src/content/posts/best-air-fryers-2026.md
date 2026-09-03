@@ -3,6 +3,10 @@ title: "Best Air Fryers in 2026 (Budget, Value, and Large-Capacity)"
 description: "We compared air fryers across price and capacity to find out which ones deliver genuinely crispy results without a huge learning curve."
 publishDate: 2026-07-24
 category: "Home & Kitchen"
+heroImage: "https://images.unsplash.com/photo-1627670381055-487000952cb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8YWlyJTIwZnJ5ZXIlMjBiYXNrZXQlMjBmb29kfGVufDB8MHx8fDE3ODg0MTg0NzF8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "Cooked food arranged in a perforated stainless steel basket, the style used inside an air fryer"
+heroImageCreditName: "Parmanand Jagnandan"
+heroImageCreditUrl: "https://unsplash.com/@parmanand?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Instant Vortex Plus"

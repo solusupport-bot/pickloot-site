@@ -10,6 +10,9 @@ const posts = defineCollection({
     updatedDate: z.date().optional(),
     category: z.string(),
     heroImage: z.string().optional(),
+    heroImageAlt: z.string().optional(),
+    heroImageCreditName: z.string().optional(),
+    heroImageCreditUrl: z.string().optional(),
     products: z
       .array(
         z.object({

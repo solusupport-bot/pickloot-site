@@ -3,6 +3,10 @@ title: "Best Milk Frothers for Home Coffee in 2026"
 description: "From a $39 handle-and-spout frother to a $200 café-style machine, here's which milk frother is actually worth it depending on how much foam you need."
 publishDate: 2026-07-29
 category: "Home & Kitchen"
+heroImage: "https://images.unsplash.com/photo-1604946326434-8dd1a3b6098b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8bWlsayUyMGZyb3RoZXJ8ZW58MHwwfHx8MTc4ODQxNzE4NXwy&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A milk frother and cups arranged on a kitchen counter."
+heroImageCreditName: "Ashkan Forouzani"
+heroImageCreditUrl: "https://unsplash.com/@ashkfor121?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Instant Milk Frother"

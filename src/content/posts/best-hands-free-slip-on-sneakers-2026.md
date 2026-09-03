@@ -3,6 +3,10 @@ title: "Best Hands-Free Slip-On Sneakers in 2026"
 description: "Hands-free 'slip-in' sneakers are suddenly everywhere on Amazon and TikTok. We compared a $25 Bruno Marc pair against Skechers' $85 and $135 lines."
 publishDate: 2026-08-29
 category: "Fashion & Accessories"
+heroImage: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8c25lYWtlcnN8ZW58MHwwfHx8MTc4ODQxNzE3Nnwy&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A white sneaker photographed against a dark background"
+heroImageCreditName: "The DK Photography"
+heroImageCreditUrl: "https://unsplash.com/@deepain108?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Bruno Marc Hands-Free Slip-On Knit Sneakers"

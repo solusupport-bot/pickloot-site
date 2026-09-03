@@ -3,6 +3,10 @@ title: "Best Products to Beat the Summer Heat in 2026"
 description: "From a $24 neck fan to a $150 three-in-one cooling device, here's what actually helps when the temperature won't drop."
 publishDate: 2026-07-31
 category: "Home & Lifestyle"
+heroImage: "https://images.unsplash.com/photo-1601084195907-44baaa49dabd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "A metal desk fan blowing air in a sunlit room."
+heroImageCreditName: "Delaney Van"
+heroImageCreditUrl: "https://unsplash.com/@delaneyvan?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Comlife Bladeless Neck Fan"

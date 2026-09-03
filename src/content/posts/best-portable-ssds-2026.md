@@ -3,6 +3,10 @@ title: "Best Portable SSDs in 2026 (Prices Are Rising Fast)"
 description: "A global NAND and DRAM shortage is pushing storage prices sharply higher in 2026 — here are three portable SSDs worth buying before the next hike."
 publishDate: 2026-08-14
 category: "Tech & Gadgets"
+heroImage: "https://images.unsplash.com/photo-1674303377230-204108fa43c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "A compact external drive sitting on a wooden table."
+heroImageCreditName: "Andrey Matveev"
+heroImageCreditUrl: "https://unsplash.com/@zelebb?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Crucial X9 1TB Portable SSD"

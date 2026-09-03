@@ -3,6 +3,10 @@ title: "Best Noise-Cancelling Headphones for Travel in 2026"
 description: "From a $79 budget pick to a $449 flagship, here's which noise-cancelling headphones are actually worth bringing on a long flight."
 publishDate: 2026-07-25
 category: "Tech & Gadgets"
+heroImage: "https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8NXx8aGVhZHBob25lc3xlbnwwfDB8fHwxNzg4NDE3MzEzfDI&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A pair of white and gray over-ear wireless headphones."
+heroImageCreditName: "Akhil Yerabati"
+heroImageCreditUrl: "https://unsplash.com/@justaguyintech?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "JLab JBuds Lux ANC"

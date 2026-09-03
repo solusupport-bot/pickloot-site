@@ -3,6 +3,10 @@ title: "Best Resistance Bands for Home Workouts in 2026"
 description: "We compared budget, mid-range, and premium resistance band sets from about $15 to $70 to help you build a home gym without buying weights."
 publishDate: 2026-08-08
 category: "Fitness & Outdoors"
+heroImage: "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
+heroImageAlt: "Two dumbbells and an orange resistance band on a wooden surface."
+heroImageCreditName: "Kelly Sikkema"
+heroImageCreditUrl: "https://unsplash.com/@kellysikkema?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Fit Simplify Resistance Loop Bands (Set of 5)"

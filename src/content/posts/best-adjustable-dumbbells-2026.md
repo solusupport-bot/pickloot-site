@@ -3,6 +3,10 @@ title: "Best Adjustable Dumbbells in 2026 (Budget to Premium)"
 description: "From a $70 cast-iron spinlock set to a $745 NUOBELL that dials up to 80 lbs, here's how adjustable dumbbells actually compare in 2026."
 publishDate: 2026-08-28
 category: "Fitness & Outdoors"
+heroImage: "https://images.unsplash.com/photo-1685633224688-6a77675eb119?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8M3x8ZHVtYmJlbGxzfGVufDB8MHx8fDE3ODg0MTcyODZ8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A row of black hex dumbbells lined up on a gym floor"
+heroImageCreditName: "Ambitious Studio* | Rick Barrett"
+heroImageCreditUrl: "https://unsplash.com/@weareambitious?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Yes4All Adjustable Dumbbell Set (40 lbs)"

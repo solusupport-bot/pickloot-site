@@ -3,6 +3,10 @@ title: "Best Portable Bluetooth Speakers in 2026"
 description: "From a $50 waterproof speaker that floats to a $150 speaker with lossless audio, here's which portable Bluetooth speaker actually fits how you'll use it."
 publishDate: 2026-07-16
 category: "Tech & Gadgets"
+heroImage: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8Ymx1ZXRvb3RoJTIwc3BlYWtlcnxlbnwwfDB8fHwxNzg4NDE3MTkwfDI&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A black portable Bluetooth speaker sitting on a wooden table."
+heroImageCreditName: "Nejc Soklič"
+heroImageCreditUrl: "https://unsplash.com/@nejc_soklic?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Soundcore Select 4 Go"

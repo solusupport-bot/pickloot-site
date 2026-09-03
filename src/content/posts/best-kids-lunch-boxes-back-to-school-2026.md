@@ -3,6 +3,10 @@ title: "Best Kids Lunch Boxes for Back to School in 2026"
 description: "We compared insulated lunch boxes from $33 to $85 — leakproof bento trays to a hard-sided cooler — to find the best back-to-school pick for 2026."
 publishDate: 2026-08-07
 category: "Family & Kids"
+heroImage: "https://images.unsplash.com/photo-1696677049263-cc38af1c7681?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8YmVudG8lMjBib3h8ZW58MHwwfHx8MTc4ODQxNzI0M3wy&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A wooden bento-style lunch box filled with an assortment of food."
+heroImageCreditName: "Henry Lim"
+heroImageCreditUrl: "https://unsplash.com/@henrylim?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Bentgo Kids Chill Lunch Box"

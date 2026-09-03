@@ -3,6 +3,10 @@ title: "Best Electric Toothbrushes in 2026 (Budget to Premium)"
 description: "We compared electric toothbrushes from $36 to $300 on pressure sensors, battery life, and app tracking to find real value at every price tier."
 publishDate: 2026-08-06
 category: "Health & Personal Care"
+heroImage: "https://images.unsplash.com/photo-1559591937-abc5678da6ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8NHx8ZWxlY3RyaWMlMjB0b290aGJydXNofGVufDB8MHx8fDE3ODg0MTcxNzR8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A black electric toothbrush"
+heroImageCreditName: "Goby"
+heroImageCreditUrl: "https://unsplash.com/@goby?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Philips Sonicare ProtectiveClean 4100"

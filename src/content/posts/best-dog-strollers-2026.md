@@ -3,6 +3,10 @@ title: "Best Dog Strollers in 2026 (Budget to Premium)"
 description: "Real prices and specs on three dog strollers, from a $130 no-zip fold-up to a $320 model rated for dogs up to 99 pounds."
 publishDate: 2026-08-24
 category: "Pet Supplies"
+heroImage: "https://images.unsplash.com/photo-1765045952615-9e28d239f053?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8Mnx8cGV0JTIwY2FycmllcnxlbnwwfHx8fDE3ODg0MTc2NzB8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A small dog peeking out of a pet carrier"
+heroImageCreditName: "Vanishing Point Images"
+heroImageCreditUrl: "https://unsplash.com/@vanishing_point_images?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Pet Gear Happy Trails Lite No-Zip Pet Stroller"

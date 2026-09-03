@@ -3,6 +3,10 @@ title: "Best Electric Scooters in 2026 (Budget to Premium)"
 description: "Segway's new Max G3 Plus just launched at $1,149 — here's how it stacks up against two cheaper commuter scooters, from $449 to $899, in 2026."
 publishDate: 2026-08-22
 category: "Tech & Gadgets"
+heroImage: "https://images.unsplash.com/photo-1565300480288-deb407e6ae15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8ZWxlY3RyaWMlMjBzY29vdGVyfGVufDB8MHx8fDE3ODg0MTcxNzR8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "Electric scooters parked near a road"
+heroImageCreditName: "Ernest Ojeh"
+heroImageCreditUrl: "https://unsplash.com/@namzo?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "GoTrax G4 Electric Scooter"

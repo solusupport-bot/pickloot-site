@@ -3,6 +3,10 @@ title: "Best Dorm Storage Bins for College Move-In in 2026"
 description: "From $25 stackable drawers to a $70 rolling cart, here's which dorm storage option actually fits a small room and a tight budget."
 publishDate: 2026-08-03
 category: "Home & Lifestyle"
+heroImage: "https://images.unsplash.com/photo-1763025747123-bb3a2e3a5ac3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8c3RvcmFnZSUyMGJpbnN8ZW58MHwwfHx8MTc4ODQxNzE3M3wy&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "Shelves filled with labeled plastic storage bins"
+heroImageCreditName: "James Baker"
+heroImageCreditUrl: "https://unsplash.com/@drwattselectric?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "IRIS USA 17 Qt. Stackable Storage Drawers, 4-Pack"

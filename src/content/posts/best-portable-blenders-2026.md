@@ -3,6 +3,10 @@ title: "Best Portable Blenders in 2026 (Compared Side-by-Side)"
 description: "We researched battery life, blade power, and cleanup time across the top personal blenders on the market to find out which ones are actually worth packing."
 publishDate: 2026-07-30
 category: "Home & Kitchen"
+heroImage: "https://images.unsplash.com/photo-1570222094114-d054a817e56b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8YmxlbmRlcnxlbnwwfDB8fHwxNzg4NDE3NTI3fDI&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A black and gray countertop blender on a kitchen counter."
+heroImageCreditName: "Daniel Norris"
+heroImageCreditUrl: "https://unsplash.com/@danielnorris?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Ninja BlendBoss Personal Blender"

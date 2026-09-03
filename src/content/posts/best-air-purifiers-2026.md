@@ -3,6 +3,10 @@ title: "Best Air Purifiers in 2026: Budget to Whole-Home"
 description: "Air purifiers run from $150 to nearly $1,000 — we compared three tiers by coverage, noise, and filtration to match a model to your room."
 publishDate: 2026-08-13
 category: "Home & Lifestyle"
+heroImage: "https://images.unsplash.com/photo-1765153155226-f617921051b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8NHx8YWlyJTIwcHVyaWZpZXJ8ZW58MHwwfHx8MTc4ODQxNzE2Nnwy&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A white cylindrical air purifier unit sitting on a table"
+heroImageCreditName: "VBreathe"
+heroImageCreditUrl: "https://unsplash.com/@enviroguardprox?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "Levoit Core 300S"

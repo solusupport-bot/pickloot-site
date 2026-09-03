@@ -3,6 +3,10 @@ title: "Best Nintendo Switch 2 Accessories in 2026"
 description: "We compared Switch 2 accessories from a $25 slim carrying case to a $70 multi-port dock to help new owners protect, control, and power their console."
 publishDate: 2026-08-12
 category: "Tech & Gadgets"
+heroImage: "https://images.unsplash.com/photo-1612036781124-847f8939b154?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8bmludGVuZG8lMjBzd2l0Y2h8ZW58MHwwfHx8MTc4ODQxNzE4Nnwy&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A black and red Nintendo Switch handheld game console."
+heroImageCreditName: "Erik Mclean"
+heroImageCreditUrl: "https://unsplash.com/@introspectivedsgn?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "tomtoc Slim Carrying Case for Nintendo Switch 2"
