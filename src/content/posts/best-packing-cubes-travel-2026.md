@@ -67,7 +67,7 @@ Basic cubes like the Veken set don't reduce volume — they just corral items so
 
 **What size packing cubes should I buy for a carry-on?**
 
-Most carry-on packers use a mix of sizes — a large cube for bulkier items like sweaters, a medium for everyday clothing, and a small for underwear or accessories. All three sets reviewed here come in multiple sizes for exactly this reason; buying only one size usually leads to wasted space.
+Most carry-on packers use a mix of sizes — a large cube for bulkier items like sweaters, a medium for everyday clothing, and a small for underwear or accessories. All three sets compared here come in multiple sizes for exactly this reason; buying only one size usually leads to wasted space.
 
 **Are packing cubes worth it for short trips, or just long ones?**
 
