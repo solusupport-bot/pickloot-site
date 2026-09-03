@@ -3,6 +3,10 @@ title: "Best Self-Cleaning Litter Boxes in 2026"
 description: "From a $100 PetSafe crystal tray to a $699 Litter-Robot 4, here's how self-cleaning litter boxes compare on cost, mess, and upkeep in 2026."
 publishDate: 2026-09-03
 category: "Pet Supplies"
+heroImage: "https://images.unsplash.com/photo-1727510153658-643787acb16a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8M3x8Y2F0JTIwbGl0dGVyJTIwYm94fGVufDB8MHx8fDE3ODg0NDk5Nzd8Mg&ixlib=rb-4.1.0&q=80&w=1080"
+heroImageAlt: "A cat sitting inside an open-top automatic litter box on a hard floor"
+heroImageCreditName: "Neakasa"
+heroImageCreditUrl: "https://unsplash.com/@neakasa?utm_source=pickloot&utm_medium=referral"
 draft: false
 products:
   - name: "PetSafe ScoopFree Crystal Classic Self-Cleaning Litter Box"
