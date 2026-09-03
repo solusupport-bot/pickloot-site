@@ -297,3 +297,75 @@ a.category-tag-link:hover {
   font-size: 0.92rem;
   margin: 1.4em 0 0;
 }
+
+/* Guide format: spec table ------------------------------------------------ */
+
+.spec-table-wrap {
+  margin: 2.4em 0;
+}
+.spec-note {
+  font-size: 0.88rem;
+  color: var(--color-muted);
+  margin-bottom: 1em;
+}
+.spec-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+.spec-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.93rem;
+  min-width: 520px;
+}
+.spec-table caption {
+  caption-side: bottom;
+  text-align: left;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  padding: 8px 14px 10px;
+}
+.spec-table th,
+.spec-table td {
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+.spec-table thead th {
+  background: var(--color-surface);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-muted);
+  white-space: nowrap;
+}
+.spec-table tbody th {
+  font-weight: 600;
+  max-width: 220px;
+}
+.spec-table tbody tr:last-child th,
+.spec-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.fits-list {
+  margin-top: 1.8em;
+}
+.fits-list h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.6em;
+}
+.fits-list dl {
+  margin: 0;
+}
+.fits-list dt {
+  font-weight: 600;
+  margin-top: 0.9em;
+}
+.fits-list dd {
+  margin: 2px 0 0;
+  color: var(--color-text);
+}

@@ -1,0 +1,75 @@
+---
+/**
+ * Spec table for `format: guide` posts.
+ *
+ * Reference layout, not a ranking: rows are in price-band order, there is no
+ * "winner" column and no score. `fitsWhen` states the situation an option
+ * suits, which is a constraint match rather than a recommendation.
+ *
+ * No price column by design — PickLoot has no live pricing feed, so a printed
+ * figure goes stale and breaks affiliate-program display rules. `tier` carries
+ * the rough band instead.
+ */
+interface Option {
+  name: string;
+  tier?: string;
+  amazonUrl?: string;
+  values: string[];
+  fitsWhen?: string;
+}
+interface Props {
+  columns: string[];
+  options: Option[];
+  caption?: string;
+}
+const { columns, options, caption } = Astro.props;
+---
+<section class="spec-table-wrap">
+  <h2>Spec comparison</h2>
+  <p class="spec-note">
+    Figures below come from each manufacturer's published specifications. PickLoot does not
+    handle these products, so nothing here is a hands-on measurement — see our
+    <a href="/editorial-policy">editorial policy</a>.
+  </p>
+
+  <div class="spec-scroll">
+    <table class="spec-table">
+      <caption>{caption ?? 'Published specifications, listed by price band — not a ranking.'}</caption>
+      <thead>
+        <tr>
+          <th scope="col">Option</th>
+          <th scope="col">Band</th>
+          {columns.map((c) => <th scope="col">{c}</th>)}
+        </tr>
+      </thead>
+      <tbody>
+        {options.map((o) => (
+          <tr>
+            <th scope="row">{o.name}</th>
+            <td>{o.tier ?? '—'}</td>
+            {columns.map((_, i) => <td>{o.values[i] ?? '—'}</td>)}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  {options.some((o) => o.fitsWhen) && (
+    <div class="fits-list">
+      <h3>Which situation each one suits</h3>
+      <dl>
+        {options.filter((o) => o.fitsWhen).map((o) => (
+          <>
+            <dt>{o.name}</dt>
+            <dd>
+              {o.fitsWhen}
+              {o.amazonUrl && (
+                <> &middot; <a href={o.amazonUrl} target="_blank" rel="nofollow sponsored noopener">Check current price on Amazon</a></>
+              )}
+            </dd>
+          </>
+        ))}
+      </dl>
+    </div>
+  )}
+</section>

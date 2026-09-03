@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import ProductCard from '../../components/ProductCard.astro';
+import SpecTable from '../../components/SpecTable.astro';
 import { getCollection, render } from 'astro:content';
 import { categoryPath } from '../../lib/categories';
 
@@ -120,6 +121,10 @@ const itemListSchema = post.data.products && post.data.products.length > 0 ? {
   <div class="prose">
     <Content />
   </div>
+
+  {post.data.specs && (
+    <SpecTable columns={post.data.specs.columns} options={post.data.specs.options} />
+  )}
 
   {post.data.products && post.data.products.map((p) => (
     <ProductCard name={p.name} amazonUrl={p.amazonUrl} price={p.price} pros={p.pros} cons={p.cons} />
