@@ -2,7 +2,7 @@
 title: "Best Yoga Mats in 2026 (Budget, Natural Rubber, and Premium)"
 description: "From a $60 mat built to last 15 years to a $144 extra-thick option, here's which yoga mat actually fits your practice."
 publishDate: 2026-07-15
-category: "Home & Lifestyle"
+category: "Fitness & Outdoors"
 heroImage: "https://images.unsplash.com/photo-1637157216470-d92cd2edb2e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
 heroImageAlt: "A person standing on a yoga mat on the floor."
 heroImageCreditName: "Junseong Lee"

@@ -2,7 +2,7 @@
 title: "Best Infrared Sauna Blankets in 2026"
 description: "Infrared sauna blankets are 2026's biggest at-home wellness trend — we compared a $120 basic wrap to a $699 HigherDOSE model."
 publishDate: 2026-09-02
-category: "Fitness & Outdoors"
+category: "Health & Personal Care"
 heroImage: "https://images.unsplash.com/photo-1678988227223-45112511eca2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8M3x8c2F1bmF8ZW58MHwwfHx8MTc4ODQxNzE3N3wy&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "The interior of a wooden sauna"
 heroImageCreditName: "Lukas Kubica"

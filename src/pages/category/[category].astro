@@ -1,0 +1,53 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { categorySlug, categoryPath } from '../../lib/categories';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', ({ data }) => !data.draft);
+  const byCategory = new Map<string, typeof posts>();
+
+  for (const post of posts) {
+    const key = post.data.category;
+    if (!byCategory.has(key)) byCategory.set(key, []);
+    byCategory.get(key)!.push(post);
+  }
+
+  return [...byCategory.entries()].map(([category, categoryPosts]) => ({
+    params: { category: categorySlug(category) },
+    props: {
+      category,
+      posts: categoryPosts.sort(
+        (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+      ),
+    },
+  }));
+}
+
+const { category, posts } = Astro.props;
+const heroImage = posts.find((p) => p.data.heroImage)?.data.heroImage;
+---
+<Layout
+  title={`${category} Guides`}
+  description={`Every PickLoot ${category.toLowerCase()} comparison — ${posts.length} guides comparing specs, prices and trade-offs so you can pick without digging through listings.`}
+  image={heroImage}
+>
+  <p class="breadcrumb"><a href="/">Home</a> &rsaquo; <span>{category}</span></p>
+  <h1>{category}</h1>
+  <p class="meta">
+    {posts.length} {posts.length === 1 ? 'guide' : 'guides'} in this category &middot;
+    <a href="/editorial-policy">How we pick these</a>
+  </p>
+
+  <ul class="post-list">
+    {posts.map((post) => (
+      <li>
+        <span class="category-tag">{post.data.category}</span>
+        <h2><a href={`/blog/${post.id}/`}>{post.data.title}</a></h2>
+        <p class="excerpt">{post.data.description}</p>
+      </li>
+    ))}
+  </ul>
+
+  <p class="back-link"><a href="/">&larr; Back to all guides</a></p>
+</Layout>

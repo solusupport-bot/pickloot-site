@@ -2,7 +2,7 @@
 title: "Best Massage Guns in 2026 (Budget to Premium)"
 description: "Percussion massage guns run from $60 to $400 — we compared three tiers by stall force, noise level, and battery life to help you choose."
 publishDate: 2026-08-15
-category: "Fitness & Outdoors"
+category: "Health & Personal Care"
 heroImage: "https://images.unsplash.com/photo-1755254926947-5ce855ba0035?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8OXx8bWFzc2FnZSUyMGd1bnxlbnwwfDB8fHwxNzg4NDE3NTk5fDI&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "A black and silver handheld massage gun with a red accent ring."
 heroImageCreditName: "Kedibone Isaac Makhumisane"

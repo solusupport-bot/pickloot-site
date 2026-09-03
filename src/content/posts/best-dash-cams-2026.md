@@ -2,7 +2,7 @@
 title: "Best Dash Cams in 2026 (Budget to 4K Tri-Channel)"
 description: "From a $40 basic model to a $380 4K tri-channel rig, here's which dash cam tier actually holds up in an insurance dispute."
 publishDate: 2026-08-04
-category: "Car Accessories"
+category: "Car & Automotive"
 heroImage: "https://images.unsplash.com/photo-1765959106936-851735565c12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8NXx8ZGFzaGNhbXxlbnwwfHx8fDE3ODg0MTc1Njl8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "An action camera mounted on a car's windshield at sunset"
 heroImageCreditName: "leoon liang"

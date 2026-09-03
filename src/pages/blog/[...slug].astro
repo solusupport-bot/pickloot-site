@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import ProductCard from '../../components/ProductCard.astro';
 import { getCollection, render } from 'astro:content';
+import { categoryPath } from '../../lib/categories';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) => !data.draft);
@@ -28,6 +29,15 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const isoDate = post.data.publishDate.toISOString();
 const isoUpdatedDate = updatedDate.toISOString();
 
+// Related guides: same category first, then the most recent other guides, so
+// every post links out to siblings instead of sitting as a dead end.
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const others = allPosts
+  .filter((p) => p.id !== post.id)
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+const sameCategory = others.filter((p) => p.data.category === post.data.category);
+const related = [...sameCategory, ...others.filter((p) => p.data.category !== post.data.category)].slice(0, 4);
+
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -35,6 +45,7 @@ const articleSchema = {
   description: post.data.description,
   datePublished: isoDate,
   dateModified: isoUpdatedDate,
+  articleSection: post.data.category,
   author: {
     '@type': 'Organization',
     name: 'PickLoot',
@@ -49,24 +60,43 @@ const articleSchema = {
   },
 };
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: new URL('/', Astro.site).toString() },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: post.data.category,
+      item: new URL(categoryPath(post.data.category), Astro.site).toString(),
+    },
+    { '@type': 'ListItem', position: 3, name: post.data.title, item: canonicalURL.toString() },
+  ],
+};
+
+// Product names only — no `offers`. PickLoot doesn't sell these and the `price`
+// frontmatter is an approximate figure we can't keep current, so publishing it
+// as a structured Offer would be marking up a price that isn't real.
 const itemListSchema = post.data.products && post.data.products.length > 0 ? {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
+  name: post.data.title,
   itemListElement: post.data.products.map((p, i) => ({
     '@type': 'ListItem',
     position: i + 1,
-    item: {
-      '@type': 'Product',
-      name: p.name,
-      ...(p.price ? { offers: { '@type': 'Offer', price: p.price.replace(/[^0-9.]/g, ''), priceCurrency: 'USD' } } : {}),
-    },
+    name: p.name,
   })),
 } : null;
 ---
 <Layout title={post.data.title} description={post.data.description} image={post.data.heroImage}>
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   {itemListSchema && <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />}
-  <span class="category-tag">{post.data.category}</span>
+
+  <p class="breadcrumb">
+    <a href="/">Home</a> &rsaquo; <a href={categoryPath(post.data.category)}>{post.data.category}</a>
+  </p>
   <h1>{post.data.title}</h1>
   <p class="meta">
     Written &amp; researched by the PickLoot Editorial Team &middot; Published {dateStr}{isoUpdatedDate !== isoDate && <> &middot; Updated {updatedDateStr}</>} &middot; <a href="/editorial-policy">How we pick these</a>
@@ -77,7 +107,7 @@ const itemListSchema = post.data.products && post.data.products.length > 0 ? {
       <img src={post.data.heroImage} alt={post.data.heroImageAlt ?? post.data.title} loading="eager" width="1080" height="720" />
       {post.data.heroImageCreditName && (
         <figcaption>
-          Photo by <a href={post.data.heroImageCreditUrl} target="_blank" rel="noopener">{post.data.heroImageCreditName}</a> on <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a> — for illustration; not the specific product reviewed.
+          Photo by <a href={post.data.heroImageCreditUrl} target="_blank" rel="noopener">{post.data.heroImageCreditName}</a> on <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a> — for illustration; not a photo of the specific products compared here.
         </figcaption>
       )}
     </figure>
@@ -94,4 +124,21 @@ const itemListSchema = post.data.products && post.data.products.length > 0 ? {
   {post.data.products && post.data.products.map((p) => (
     <ProductCard name={p.name} amazonUrl={p.amazonUrl} price={p.price} pros={p.pros} cons={p.cons} />
   ))}
+
+  {related.length > 0 && (
+    <aside class="related">
+      <h2>Related guides</h2>
+      <ul class="related-list">
+        {related.map((p) => (
+          <li>
+            <a href={`/blog/${p.id}/`}>{p.data.title}</a>
+            <span class="related-category">{p.data.category}</span>
+          </li>
+        ))}
+      </ul>
+      <p class="back-link">
+        <a href={categoryPath(post.data.category)}>See all {post.data.category} guides &rarr;</a>
+      </p>
+    </aside>
+  )}
 </Layout>

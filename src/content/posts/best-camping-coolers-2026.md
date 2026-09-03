@@ -2,7 +2,7 @@
 title: "Best Camping Coolers in 2026 (Budget to Premium)"
 description: "From a $107 Coleman rated for 5 days of ice to a $325 YETI built for weeklong trips, here's how camping coolers actually compare in 2026."
 publishDate: 2026-08-23
-category: "Outdoor & Camping"
+category: "Fitness & Outdoors"
 heroImage: "https://images.unsplash.com/photo-1550720295-a59523cb8872?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8Y29vbGVyfGVufDB8MHx8fDE3ODg0MTc4MDF8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "A white hard-sided cooler sitting on pavement near a body of water"
 heroImageCreditName: "Sandrene Zhang"
