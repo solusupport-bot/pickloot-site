@@ -1,0 +1,1 @@
+Peak amps on a jump starter is a burst rating, not raw power -- it's what lets it crank a cold engine for a couple seconds, and diesel needs more of it per liter than gas. How to read the spec sheet: pickloot.com/blog/how-to-choose-portable-jump-starters-2026/

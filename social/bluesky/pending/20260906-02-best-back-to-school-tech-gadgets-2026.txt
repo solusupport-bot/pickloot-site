@@ -1,0 +1,1 @@
+A gadget's battery size in mAh tells you almost nothing about how fast it charges between classes -- that's set by the charging profile the port negotiates, not the battery. Which specs actually matter: pickloot.com/blog/best-back-to-school-tech-gadgets-2026/
