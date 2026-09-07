@@ -1,0 +1,1 @@
+Two generators can list nearly identical running watts and still behave completely differently once you check runtime-at-load and noise level -- specs most buyers never compare side by side: pickloot.com/blog/how-to-choose-portable-generators-2026/
