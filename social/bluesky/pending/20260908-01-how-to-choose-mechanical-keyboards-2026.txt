@@ -1,0 +1,1 @@
+A mechanical keyboard's polling rate often drops from 1000Hz wired to 90Hz over Bluetooth on the same board -- a spec most listings never separate out: pickloot.com/blog/how-to-choose-mechanical-keyboards-2026/
