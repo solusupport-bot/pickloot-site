@@ -1,0 +1,1 @@
+A robot vacuum's runtime spec matters less than whether it can recharge and resume the same cleaning cycle -- that's what covers a home bigger than one battery charge: pickloot.com/blog/best-robot-vacuums-2026/
