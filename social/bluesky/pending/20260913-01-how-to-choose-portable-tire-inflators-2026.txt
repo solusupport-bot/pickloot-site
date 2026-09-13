@@ -1,0 +1,1 @@
+Max PSI on a tire inflator is a ceiling, not a speed rating -- two inflators rated to the same 150 PSI can fill a tire at very different rates. Airflow is the number that actually predicts time: pickloot.com/blog/how-to-choose-portable-tire-inflators-2026/
