@@ -1,0 +1,1 @@
+Smart glasses battery ratings on the box usually assume light use -- turn on continuous recording or an always-on display and real runtime on the cheaper tiers can drop to a fraction of the rated hours: pickloot.com/blog/best-smart-glasses-2026/
