@@ -1,74 +1,93 @@
 ---
-title: "Best Air Purifiers in 2026: Budget to Whole-Home"
-description: "Air purifiers run from $150 to nearly $1,000 — we compared three tiers by coverage, noise, and filtration to match a model to your room."
+title: "How to Choose an Air Purifier in 2026"
+description: "CADR, the air-change rate behind a coverage figure, filtration stages, noise range and filter life are what separate air purifiers. Here's how to read each one."
 publishDate: 2026-08-13
+updatedDate: 2026-09-17
 category: "Home & Lifestyle"
+format: "guide"
 heroImage: "https://images.unsplash.com/photo-1765153155226-f617921051b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8NHx8YWlyJTIwcHVyaWZpZXJ8ZW58MHwwfHx8MTc4ODQxNzE2Nnwy&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "A white cylindrical air purifier unit sitting on a table"
 heroImageCreditName: "VBreathe"
 heroImageCreditUrl: "https://unsplash.com/@enviroguardprox?utm_source=pickloot&utm_medium=referral"
 draft: false
-products:
-  - name: "Levoit Core 300S"
-    amazonUrl: "https://www.amazon.com/s?k=Levoit+Core+300S+Air+Purifier"
-    price: "~$150"
-    pros:
-      - "Runs as low as 28 dB in sleep mode, quiet enough for a bedroom"
-      - "VeSync app adds PM2.5 tracking, scheduling, and remote control"
-      - "Compact footprint that fits on a desk or nightstand"
-    cons:
-      - "Reacts slowly to sudden spikes in air quality"
-      - "No VOC readout even though the filter captures some VOCs"
-  - name: "Coway Airmega 200M"
-    amazonUrl: "https://www.amazon.com/s?k=Coway+Airmega+200M+Air+Purifier"
-    price: "~$230"
-    pros:
-      - "Clears a 361 sq. ft. room in about 12.5 minutes per Coway's specs"
-      - "4-stage filtration adds a dedicated deodorization layer to the HEPA filter"
-      - "Meaningfully faster air turnover than the budget tier in the same room"
-    cons:
-      - "Bulkier and heavier than a compact single-room unit"
-      - "Still underpowered for large, open-concept living spaces"
-  - name: "Coway Airmega ProX"
-    amazonUrl: "https://www.amazon.com/s?k=Coway+Airmega+ProX+Air+Purifier"
-    price: "~$850 (list $999, frequently discounted)"
-    pros:
-      - "462 CFM CADR rated for 5 air changes per hour in a 693 sq. ft. room"
-      - "Strong performance-to-noise ratio — 37.4 dBA at its lowest speed"
-      - "Laser particle sensor with an auto light-sleep mode"
-    cons:
-      - "Filter replacements run roughly $200 a year"
-      - "51 lbs and fairly large, so it's a fixed fixture, not something you move room to room"
+specs:
+  columns: ["CADR", "Coverage at 1 air change/hr", "Filtration", "Noise range", "Filter life"]
+  options:
+    - name: "Levoit Core 300S-P"
+      tier: "Budget"
+      amazonUrl: "https://www.amazon.com/s?k=Levoit+Core+300S-P+Air+Purifier"
+      values:
+        - "141 CFM (not broken out by pollutant)"
+        - "1,051 sq ft"
+        - "3-stage original filter"
+        - "22-50 dB"
+        - "Not published"
+      fitsWhen: "One bedroom or a home office, and the unit has to sit on a nightstand or desk. Its 22 dB floor is the lowest published figure of the three, which is the spec that decides whether it runs overnight."
+    - name: "Coway Airmega 200M"
+      tier: "Mid-range"
+      amazonUrl: "https://www.amazon.com/s?k=Coway+Airmega+200M+Air+Purifier"
+      values:
+        - "246 smoke / 249 dust / 277 pollen"
+        - "1,748 sq ft"
+        - "Pre-filter + deodorization + HEPA + bipolar device"
+        - "24.4-55.1 dB(A)"
+        - "Deodorization 6 months, HEPA 12 months"
+      fitsWhen: "A larger bedroom or a living room where cooking or pet odour is part of the problem — it is the only one of the three with a dedicated deodorization stage listed separately from the HEPA layer. It is also the loudest at full speed."
+    - name: "Coway Airmega ProX"
+      tier: "Premium"
+      amazonUrl: "https://www.amazon.com/s?k=Coway+Airmega+ProX+Air+Purifier"
+      values:
+        - "568 smoke / 580 dust / 450 pollen"
+        - "4,253 sq ft"
+        - "Washable pre-filter + Max2 (HEPA + activated carbon)"
+        - "23-46 dB(A)"
+        - "Max2 filter up to 1 year"
+      fitsWhen: "An open-plan floor or a great room, where the square footage is genuinely large and the unit will stay in one place — Coway publishes it at 51 lbs. Its 46 dB(A) ceiling is lower than the other two, so the extra output does not come with extra noise at the top end."
 ---
 
-Air purifiers span an enormous price range, and the gap isn't just brand markup — coverage area, filtration speed, and noise level change a lot as the price climbs. Based on published specs, manufacturer testing data, and owner reviews, we compared three purifiers that represent distinct tiers: a compact everyday model, a mid-range unit for bigger rooms, and a high-output purifier built for large or open-concept spaces.
+Air purifiers on a shelf look much the same: a box, a fan, a filter. The published specifications are where they diverge, and five of them account for almost all of the difference — clean air delivery rate, the coverage figure and the air-change rate behind it, the filtration stages in the airflow, the noise range, and filter life. This guide explains what each changes, then lays three units out side by side.
 
-## Levoit Core 300S
+## CADR is the only spec that measures output
 
-This is the pick for a single bedroom, home office, or small living room where quiet operation matters as much as filtration. In sleep mode it drops to around 28 dB, quiet enough to run overnight without being noticeable, and it climbs to about 60 dB on its highest setting when you need faster clearing. The VeSync companion app adds PM2.5 tracking with historical data, scheduling, and a child lock, all fairly standard smart-home conveniences layered onto a straightforward HEPA purifier. Owner reviews consistently point to the low price and compact size as the draw, though several note that it responds sluggishly to sudden changes in air quality — burnt toast or a candle can take a few minutes to register and trigger a speed increase. The app itself is also basic: useful for monitoring, but it doesn't report VOC levels even though the filter captures some volatile compounds.
+Clean air delivery rate is given in cubic feet per minute and describes how much filtered air the unit delivers, tested against smoke, dust and pollen. It combines fan output and filter resistance rather than describing either alone, which makes it the category's nearest thing to a single performance number.
 
-## Coway Airmega 200M
+Two things to watch. Manufacturers do not all publish it the same way — Coway breaks the figure out per pollutant, Levoit publishes a single combined CFM number for the Core 300S-P — so the three units are not reported on quite the same basis. And CADR stops mattering once it comfortably exceeds the room: a unit rated well beyond your square footage does not clean the air past clean, it just spends more of its life on a lower, quieter fan speed.
 
-Step up to this tier and the headline change is speed: Coway's own testing rates the 200M at clearing a 361 sq. ft. room in about 12.5 minutes, or a 874 sq. ft. space in half an hour on its highest setting. That's a meaningful jump from a compact single-room unit, and it comes from a 4-stage filtration stack that adds a dedicated deodorization filter ahead of the True HEPA layer, which owner reviews credit with noticeably better odor control for cooking smells and pet areas. Coway's published lab figures claim it reduces ultrafine 0.01-micron particles by 99.999% and VOCs and odors by around 99%, though those numbers come from controlled test-chamber conditions rather than a real living room. The tradeoff for the added filtration hardware is size and weight — it's a noticeably bigger unit than the budget tier, and while it comfortably handles a mid-size room, it's still not rated for large open floor plans.
+## A coverage figure means nothing without its air-change rate
 
-## Coway Airmega ProX
+Every coverage number is really a pair: square footage *and* how many times an hour the unit turns that volume over. The table uses the one-air-change-per-hour basis because all three manufacturers publish it — and because it is the most generous basis available.
 
-This is the tier for a great room, an open-concept main floor, or anyone dealing with wildfire smoke or heavy allergy seasons who wants serious air turnover. It's rated at 462 CFM CADR, enough for 5 full air changes per hour in a 693 sq. ft. space, and reviewers have highlighted an unusually strong performance-to-noise ratio — it stays around 37.4 dBA on its lowest speed despite the high output, only climbing to the mid-50s dBA range at maximum. A laser particle sensor drives an auto light-sleep mode that ramps the fan up and down based on real-time air quality rather than a fixed schedule. It carries Coway's $999 list price but is frequently discounted well below that on Amazon, which is worth watching for before paying full price. The catch is ongoing cost and footprint: filter replacements run close to $200 a year because the filter set is bonded and gets replaced as a whole unit rather than swapped piece by piece, and at 51 lbs and roughly two feet tall, it's a piece of furniture you place once rather than move between rooms.
+At 4.8 air changes per hour, the rate usually quoted for pollen or smoke, Levoit publishes the Core 300S-P at 219 sq ft rather than 1,051, and Coway the Airmega 200M at 361 sq ft rather than 1,748. The ProX publishes no 4.8-ACH figure at all; its pair stops at two changes an hour in 2,126 sq ft.
 
-## Bottom line
+Compare coverage figures only at the same rate, and decide which rate you need first: one or two changes an hour is a general dust setting, four to five is what allergy and smoke use asks for.
 
-The Core 300S fits best for a single room where quiet, low cost, and simplicity matter more than raw output. The Airmega 200M is the better fit once you're covering a larger bedroom or open living area and want faster air turnover with real odor control. The Airmega ProX is worth the jump only if you're purifying a genuinely large or open space, dealing with smoke or heavy allergens, or want the fastest air changes available — otherwise its higher filter costs and bulk aren't worth it for a smaller home.
+## Filtration stages describe what gets captured, and how often you pay for it
+
+A HEPA layer handles particles — dust, pollen, dander, smoke. It does very little about gases and odours, which is what a separate activated-carbon or deodorization stage is for. The stage count hides that: the Airmega 200M lists deodorization as its own layer ahead of the HEPA filter, the ProX bonds carbon and HEPA into a single Max2 cartridge, and Levoit publishes the Core 300S-P as a three-stage original filter without enumerating the layers.
+
+Stage count also sets the running cost, because a stage is a thing you replace. Coway lists 6 months for the 200M's deodorization filter and 12 for its HEPA, and up to a year for the ProX's Max2 — but a bonded cartridge is replaced whole, so there is no swapping only the spent layer. Levoit publishes no filter-life figure for the Core 300S-P, leaving the indicator on the unit as your only guide.
+
+## Noise range decides whether the thing gets used
+
+A purifier too loud to sleep beside gets switched off at night, exactly when a bedroom unit earns its place. The range matters at both ends. The low figure — 22 dB for the Core 300S-P, 23 dB(A) for the ProX, 24.4 dB(A) for the 200M — is the sleep setting. The high figure is what you get when the unit ramps up, and the 200M's 55.1 dB(A) is roughly conversation level while the ProX tops out at 46 dB(A) despite more than twice the CADR.
+
+## Matching the specs to your home
+
+- **A bedroom, and it has to be quiet** — the low end of the noise range, then coverage at 4.8 ACH. Output you can't stand to run is not output.
+- **An open-plan floor** — CADR first, and check the coverage figure's air-change basis before comparing anything.
+- **Cooking or pet odour is the reason you're buying** — a carbon or deodorization stage listed separately, since HEPA alone does not address gases.
+- **You want the running cost up front** — published filter life, and whether stages are replaced separately or as one bonded cartridge.
 
 ## Frequently asked questions
 
 **Do air purifiers actually help with allergies?**
 
-They can reduce airborne allergens like pollen, dust, and pet dander that are currently circulating in a room, which many allergy sufferers report as noticeably helpful, especially overnight in a bedroom. They don't remove allergens already settled on surfaces or fix the source of an allergy, so they work best alongside regular cleaning rather than as a standalone fix.
+They reduce airborne allergens such as pollen, dust and pet dander circulating in a room. They do not remove what has already settled on surfaces or address the source, so they work alongside cleaning rather than instead of it. For that use the air-change rate matters more than the headline square footage.
 
-**How often do I actually need to replace the filters?**
+**How often do filters actually need replacing?**
 
-It depends on usage and air quality, but most HEPA filters in this category are rated for roughly 6 to 12 months of continuous use before airflow and filtration efficiency noticeably drop. Running a purifier constantly in a smoky, dusty, or high-pollen environment will shorten that window, so check your specific model's filter-life indicator rather than going by a fixed calendar.
+Manufacturers publish a figure — 6 to 12 months is the common band here — but it assumes typical use, and a purifier running constantly in smoke, dust or heavy pollen reaches the end of that window sooner. Where no figure is published, the unit's filter indicator is what you have to go on.
 
-**Is a bigger, more powerful purifier always the better buy?**
+**Is a bigger, more powerful purifier always the better fit?**
 
-Not if it's oversized for your room — a unit rated well beyond your square footage just means it reaches full clean-air turnover faster and can run on quieter, lower fan speeds most of the time, which is a genuine benefit, but you're also paying more upfront and in filter costs for coverage you may not need. Match the CADR and coverage rating to your actual room size first, then decide if the extra headroom is worth the price gap.
+Not automatically, but oversizing has an easily missed benefit: a unit rated beyond your room hits the same air-change rate at a lower fan speed, so it runs quieter. What you pay is filter cost and floor space — the ProX is published at 51 lbs, a fixture rather than something you move between rooms.
