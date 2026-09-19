@@ -1,0 +1,1 @@
+A fridge compressor can pull 2-3x its running wattage at startup -- why a generator's "starting watts" figure always beats rated watts, and the one that actually limits what you can plug in: pickloot.com/blog/how-to-choose-portable-generators-2026/
