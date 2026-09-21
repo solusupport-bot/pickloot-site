@@ -1,74 +1,94 @@
 ---
-title: "Best Electric Scooters in 2026 (Budget to Premium)"
-description: "Segway's new Max G3 Plus just launched at $1,149 — here's how it stacks up against two cheaper commuter scooters, from $449 to $899, in 2026."
+title: "How to Choose an Electric Scooter in 2026"
+description: "Motor power, battery capacity, claimed range, tire construction and brake type are the published specs that separate commuter scooters. Here's how to read them."
 publishDate: 2026-08-22
+updatedDate: 2026-09-21
 category: "Tech & Gadgets"
+format: "guide"
 heroImage: "https://images.unsplash.com/photo-1565300480288-deb407e6ae15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDE3MjIwfDB8MXxzZWFyY2h8MXx8ZWxlY3RyaWMlMjBzY29vdGVyfGVufDB8MHx8fDE3ODg0MTcxNzR8Mg&ixlib=rb-4.1.0&q=80&w=1080"
 heroImageAlt: "Electric scooters parked near a road"
 heroImageCreditName: "Ernest Ojeh"
 heroImageCreditUrl: "https://unsplash.com/@namzo?utm_source=pickloot&utm_medium=referral"
 draft: false
-products:
-  - name: "GoTrax G4 Electric Scooter"
-    amazonUrl: "https://www.amazon.com/s?k=GoTrax+G4+Electric+Scooter"
-    price: "~$449"
-    pros:
-      - "One of the more affordable commuter scooters with a real brand and parts support behind it"
-      - "500W motor and 20 mph top speed are enough for short neighborhood or campus commutes"
-      - "Solid, puncture-resistant tires mean no air pressure to check or flats to patch"
-    cons:
-      - "No suspension, so cracked sidewalks and potholes come through directly into the ride"
-      - "GoTrax lists 'up to 25 miles' of range, and real-world range typically drops well below that with rider weight, hills, or cold weather"
-  - name: "Segway Ninebot F65"
-    amazonUrl: "https://www.amazon.com/s?k=Segway+Ninebot+F65+Electric+Scooter"
-    price: "~$799"
-    pros:
-      - "Segway lists over 40 miles of range, roughly double the budget tier, so multi-day commuting between charges is realistic"
-      - "Regenerative braking recovers some charge on descents and reduces brake wear over time"
-      - "Segway's scale means replacement parts and official support are easier to find than with smaller scooter brands"
-    cons:
-      - "Meaningfully heavier and bulkier than budget commuter scooters, which matters if you're carrying it up stairs or onto a train"
-      - "The step up in price is real money for range and durability gains that occasional riders may not need"
-  - name: "Segway Max G3 Plus"
-    amazonUrl: "https://www.amazon.com/s?k=Segway+Max+G3+Plus+Electric+Scooter"
-    price: "~$1,150"
-    pros:
-      - "A 2,200-watt motor and a claimed 56-mile range are built for longer commutes and hillier routes, not just flat neighborhood loops"
-      - "Dual hydraulic suspension and hydraulic disc brakes are a real step up in ride comfort and stopping power over cable-actuated brakes"
-      - "Apple Find My support and app-based AirLock locking directly address scooter theft, which is one of the biggest complaints in this category"
-    cons:
-      - "At over $1,100, this is a serious purchase, not an impulse buy, and well above what casual riders typically spend"
-      - "At 55.6 pounds, it's not something you casually carry upstairs or lug through a train station turnstile"
+specs:
+  columns: ["Motor power", "Battery", "Claimed max range", "Tires", "Brakes"]
+  options:
+    - name: "GOTRAX G4"
+      tier: "Budget"
+      amazonUrl: "https://www.amazon.com/s?k=GOTRAX+G4+Electric+Scooter"
+      values:
+        - "500 W"
+        - "36 V 10.4 Ah"
+        - "Up to 25 miles"
+        - "10 in solid, puncture-resistant"
+        - "Not published"
+      fitsWhen: "Your route is short and the pavement is in good condition, and you would rather never check tire pressure or patch a tube. Note that GOTRAX's spec table does not list a brake type or a suspension figure, so those are two axes you cannot compare before buying."
+    - name: "Segway Ninebot KickScooter F65"
+      tier: "Mid-range"
+      amazonUrl: "https://www.amazon.com/s?k=Segway+Ninebot+KickScooter+F65"
+      values:
+        - "400 W nominal, 700 W peak"
+        - "561 Wh"
+        - "Up to 40.4 miles (65 km)"
+        - "10 in pneumatic, inner tube"
+        - "Front drum, rear electronic"
+      fitsWhen: "The round trip is long enough that charging every night is inconvenient, and the surface is rough enough that you want air in the tires. Segway publishes a net weight of 48 lb for it, which is the figure to check if the scooter has to come up stairs."
+    - name: "Segway Ninebot MAX G3 Plus"
+      tier: "Premium"
+      amazonUrl: "https://www.amazon.com/s?k=Segway+Ninebot+MAX+G3+Plus"
+      values:
+        - "2,200 W max power"
+        - "717 Wh"
+        - "Up to 56 miles"
+        - "11 in self-sealing"
+        - "140 mm front and rear disc"
+      fitsWhen: "The route has sustained climbs, or the distance sits close to the ceiling of what the other two claim. It is also the only one of the three whose published spec list includes front and rear hydraulic suspension."
 ---
 
-Segway opened pre-orders on its new Max G3 Plus in early August 2026, and the launch has pushed electric scooters back into shopping searches right as commuters look for cheaper, car-free ways to get around before winter. We compared three tiers — a budget commuter pick, a mid-range Segway with real range, and the new flagship — based on published specs and owner feedback rather than a single "best" answer, since the right scooter mostly comes down to how far you actually ride and where you have to store it.
+Commuter scooters photograph almost identically: same deck, same folding stem, same display. The published spec sheets are where they separate, and five figures account for most of it — motor power, battery capacity, claimed range, tire construction and brake type. This guide explains what each changes once you are riding, then puts three models side by side.
 
-## GoTrax G4 Electric Scooter
+## Motor power describes hills, not top speed
 
-The G4 is GoTrax's best-selling model, and it's aimed squarely at riders who want a functional commuter scooter without spending close to a car payment on it. A 500-watt motor gets it to 20 mph, which is plenty for sidewalk or bike-lane commuting, and the solid tires mean you'll never deal with a flat. The tradeoff is comfort: with no suspension, every crack and pothole transmits straight into your wrists and knees, and the advertised 25-mile range is a best-case number that shrinks noticeably once you factor in a rider's actual weight, hills, or colder weather. For short, flat commutes under a few miles each way, it's a reasonable low-cost entry point.
+Wattage is usually read as "how fast," and it is closer to "how hard." Top speed on a commuter scooter is capped by firmware and by local rules, so a 2,200 W machine and a 500 W one can be closer on flat ground than the numbers suggest. What the extra power changes is the grade the scooter holds without bogging down, and how quickly it recovers speed from a standing start.
 
-## Segway Ninebot F65
+Manufacturers also do not publish the same quantity. GOTRAX lists a single 500 W figure. Segway publishes 400 W nominal and 700 W peak for the F65 — nominal is what the motor draws continuously, peak is a short burst. A headline "max power" figure, like the MAX G3 Plus's 2,200 W, is a peak number, so comparing one brand's peak against another's nominal overstates the gap. Where it stops mattering: on a flat route with no long climbs, anything in this range holds its rated speed with an adult aboard.
 
-The F65 sits in the middle of Segway's lineup and roughly doubles the GoTrax's range on paper, with the company listing over 40 miles per charge. That extra range comes from a bigger battery, and regenerative braking helps claw a little of it back on downhill stretches while also reducing wear on the brake pads. Because it's a Segway, replacement parts, official firmware updates, and support are easier to track down than with smaller, less established brands — a real consideration once something breaks two years in. The scooter is noticeably heavier than budget models, though, which matters the moment your commute involves stairs, an elevator that's out of service, or squeezing it onto a crowded train.
+## Claimed range is a ceiling, not a forecast
 
-## Segway Max G3 Plus
+Every range figure here — 25, 40.4 and 56 miles — is measured under favourable conditions: a lighter rider, level ground, mild temperatures, a moderate constant speed. Rider weight, hills, cold air and stop-start riding pull the real figure down, sometimes by a third or more. It is useful for comparing two scooters and unreliable as a promise about your commute.
 
-Segway's new flagship is the reason electric scooters are trending right now: pre-orders opened August 4, 2026 with shipping starting later that month, backed by a 2,200-watt motor, a claimed 56-mile range, and hardware that's a genuine step up rather than a marketing refresh. Dual hydraulic suspension and hydraulic disc brakes with 140mm rotors give it a noticeably smoother, more controlled ride than cable-brake scooters, and Apple Find My support paired with app-based AirLock locking directly targets the theft problem that discourages a lot of people from buying an expensive scooter at all. The catch is obvious: at over $1,100, it's priced like a serious piece of transportation equipment, and at 55.6 pounds it's not something you're casually carrying up a walk-up apartment's stairs.
+The battery column is the figure underneath the claim. Watt-hours are the size of the tank: 561 Wh against 717 Wh explains most of the gap between the two Segways. GOTRAX publishes volts and amp-hours instead — 36 V, 10.4 Ah — the same quantity in different units, since volts multiplied by amp-hours gives watt-hours. Convert before comparing. Where it stops mattering: if your round trip is a small fraction of the smallest figure, range is not a differentiator.
 
-## Bottom line
+## Tires set ride comfort and the maintenance you inherit
 
-If your commute is short and flat, the GoTrax G4 covers it for under $500. If you need real range and want a brand with support behind it, the Ninebot F65 is the sensible middle ground. The Max G3 Plus is for riders who commute longer distances, deal with hills, or have been burned by a stolen scooter before and are willing to pay for suspension, range, and tracking to fix that.
+This spec has the clearest day-to-day consequence. Solid puncture-resistant tires, as on the G4, cannot go flat and never need pressure checked — you give up compliance for that, and every expansion joint arrives through the deck. Pneumatic tires with an inner tube, as on the F65, absorb far more of the surface, at the cost of pressure checks and punctures. Self-sealing tires, on the MAX G3 Plus, are pneumatic with sealant that closes small punctures without a roadside repair.
+
+Diameter matters alongside type: an 11-inch wheel drops into a gap less abruptly than a 10-inch one at the same speed. Where it stops mattering: on smooth, new bike lanes, solid tires are comfortable and one less thing to maintain.
+
+## Brakes are where the spec sheets diverge most
+
+Segway publishes a front drum plus a rear electronic brake on the F65, and 140 mm front and rear disc brakes on the MAX G3 Plus. GOTRAX does not list a brake type in the G4's spec table at all.
+
+Drum brakes are enclosed, so rain and grit barely affect them. Disc brakes give more stopping force and finer control of it, which matters as the scooter gets heavier or faster. An electronic brake slows the scooter by loading the motor, reducing friction-brake wear but supplementing one rather than replacing it. An unpublished cell is not a missing brake — it means the spec is not there to compare, which is worth raising with a retailer rather than assuming.
+
+## Matching the specs to your commute
+
+- **Sustained climbs on the route** — motor power, the nominal figure rather than the peak, since a climb is a continuous load.
+- **A round trip close to the claimed range** — battery capacity in watt-hours, because the claim shrinks and the tank size is what remains.
+- **Cracked pavement or tram tracks** — tire type and diameter.
+- **Riding in the wet** — brake type, where drum, disc and electronic brakes behave differently.
+- **Stairs or a train in the commute** — net weight, not a column here; check the published figure for your model and region.
 
 ## Frequently asked questions
 
-**Is the Segway Max G3 Plus worth the price over the Ninebot F65?**
+**What is the difference between nominal and peak motor power?**
 
-It depends on your commute. The extra ~$350 buys a meaningfully bigger battery, real suspension, hydraulic brakes, and theft-deterrent features like Find My tracking — worthwhile if you ride long distances or live somewhere scooters get stolen, but likely overkill for a short, flat commute.
+Nominal power is what the motor sustains continuously without overheating; peak power is a short burst for acceleration or a climb. Peak figures sit well above nominal, so a brand advertising only a peak number looks more powerful than one publishing a nominal figure for a similar motor. Compare nominal with nominal where both are published.
 
 **How much does rider weight affect an electric scooter's real-world range?**
 
-Significantly. Published range figures like GoTrax's "up to 25 miles" are typically measured under close-to-ideal conditions — a lighter rider, flat terrain, and moderate temperatures. Heavier riders, hills, headwinds, and cold weather can all cut real-world range well below the advertised number, sometimes by a third or more.
+Considerably. Published figures like GOTRAX's "up to 25 miles" assume close-to-ideal conditions — a lighter rider, flat terrain, moderate temperatures. Heavier riders, hills, headwinds and cold weather each reduce it, and together they cut the real distance well below the advertised number.
 
-**Do I need suspension on a commuter electric scooter?**
+**Do larger tires remove the need for suspension?**
 
-If you're riding on smooth bike lanes or new sidewalks, solid tires and no suspension are fine and one less thing to maintain. If your commute includes cracked pavement, potholes, or curb cuts, suspension like the Max G3 Plus's dual hydraulic setup meaningfully reduces fatigue and impact on your wrists and joints over a longer ride.
+They soften small, high-frequency bumps, so a larger pneumatic tire noticeably improves a scooter with none. They do not do the same job on bigger impacts such as curb cuts, where a suspension has travel that a tire does not. Of the three here, only the MAX G3 Plus publishes a suspension spec.
