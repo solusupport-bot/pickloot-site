@@ -1,0 +1,1 @@
+Two speakers can both say 'Bluetooth 5.3' and still sound different -- the codec they support (SBC vs AAC vs aptX) is a separate spec controlling audio quality, and it's not always listed: pickloot.com/blog/best-portable-bluetooth-speakers-2026/

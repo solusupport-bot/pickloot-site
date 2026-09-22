@@ -1,0 +1,1 @@
+A 'military-grade durable' gadget claim usually points to a MIL-STD-810H test on one component, not the whole device -- the spec sheet says what's actually rated: pickloot.com/blog/best-back-to-school-tech-gadgets-2026/
