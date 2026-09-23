@@ -1,0 +1,1 @@
+A router broadcasting one Wi-Fi name for both bands can hand a smart plug a 5GHz connection during setup and just fail, with no explanation -- every smart plug in this category only speaks 2.4GHz: pickloot.com/blog/best-smart-plugs-2026/
