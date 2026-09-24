@@ -1,0 +1,1 @@
+A DDR5 kit rated 6600MT/s doesn't run that fast the moment you install it -- it defaults to a slower JEDEC speed until you enable XMP or EXPO yourself in the BIOS: pickloot.com/blog/how-to-choose-ddr5-ram-2026/
