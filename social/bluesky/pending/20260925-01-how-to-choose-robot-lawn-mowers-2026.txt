@@ -1,0 +1,1 @@
+A robot lawn mower's slope rating is a hard limit, not a suggestion -- push past it and the wheels just spin instead of climbing, no matter how smart the mapping is. What the published specs actually control: pickloot.com/blog/how-to-choose-robot-lawn-mowers-2026/
