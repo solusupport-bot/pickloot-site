@@ -1,0 +1,1 @@
+A 500W hub motor and a 250W mid-drive motor aren't measuring the same thing: torque (Nm), not wattage, is what actually gets an e-bike up a hill. Here's how to read the specs that matter: pickloot.com/blog/how-to-choose-electric-bikes-2026/
