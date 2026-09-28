@@ -1,0 +1,1 @@
+Tape width on a label maker varies nearly 5x across common models, from 15mm to 75mm -- a narrow-format printer physically can't produce a label wide enough for a shipping box, no matter its resolution: pickloot.com/blog/how-to-choose-label-makers-2026/
