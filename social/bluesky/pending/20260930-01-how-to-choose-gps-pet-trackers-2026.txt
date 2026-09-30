@@ -1,0 +1,1 @@
+A GPS pet tracker with satellite backup has the shortest published battery life of the three tiers we compared -- not despite the extra feature, but because of it. More networks running at once costs more power: pickloot.com/blog/how-to-choose-gps-pet-trackers-2026/
