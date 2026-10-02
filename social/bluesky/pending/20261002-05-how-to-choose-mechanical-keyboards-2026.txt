@@ -1,0 +1,1 @@
+Actuation force on a mechanical keyboard is published in grams, but two switches rated at the same weight can feel completely different depending on where in the keystroke that force is measured: pickloot.com/blog/how-to-choose-mechanical-keyboards-2026/

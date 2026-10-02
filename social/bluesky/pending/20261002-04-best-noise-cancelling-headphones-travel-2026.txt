@@ -1,0 +1,1 @@
+Multipoint Bluetooth on noise-cancelling headphones sounds like one simple spec, but connecting two devices at once can drop the codec quality on both -- a tradeoff rarely listed on the box: pickloot.com/blog/best-noise-cancelling-headphones-travel-2026/
