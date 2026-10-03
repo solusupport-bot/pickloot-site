@@ -1,0 +1,1 @@
+A portable AC's noise rating is usually its quietest fan speed, not how loud it runs at full cooling -- two spec sheets listing different dB numbers aren't necessarily measuring the same thing: pickloot.com/blog/best-portable-air-conditioners-2026/
