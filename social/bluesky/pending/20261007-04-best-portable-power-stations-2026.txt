@@ -1,0 +1,1 @@
+A power station's 'peak wattage' and its continuous wattage are two different numbers on the same spec sheet. Peak is what it survives for a few seconds; continuous is what it can actually run a device on: pickloot.com/blog/best-portable-power-stations-2026/
