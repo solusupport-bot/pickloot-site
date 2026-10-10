@@ -1,0 +1,1 @@
+A smart thermostat with no published C-wire requirement runs on an entirely different install path than one that needs an adapter kit before it even powers on -- the spec sheet decides which: pickloot.com/blog/how-to-choose-smart-thermostats-2026/
