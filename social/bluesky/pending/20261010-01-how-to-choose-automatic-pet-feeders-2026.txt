@@ -1,0 +1,1 @@
+A microchip pet feeder has no meals-per-day spec because it isn't on a schedule at all -- it unlocks continuous access to a bowl, gated to whichever pet's chip it recognizes: pickloot.com/blog/how-to-choose-automatic-pet-feeders-2026/
