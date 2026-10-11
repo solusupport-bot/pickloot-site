@@ -1,1 +1,0 @@
-This is a deliberately constructed test entry used only to verify the publish pipeline, not real content about any real product.: pickloot.com/blog/test-dummy-passing-guide/

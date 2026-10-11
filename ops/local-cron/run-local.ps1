@@ -2,9 +2,12 @@
 # telegram-notify.yml / bluesky-post.yml이 돌지 않는다. 같은 스크립트를 이 PC에서 직접 실행한다.
 #   -Mode telegram : 15분마다 (작업 스케줄러 PickLootSite-TelegramNotify)
 #   -Mode bluesky  : 하루 6회 (작업 스케줄러 PickLootSite-BlueskyPost)
+#   -Mode post     : 하루 1회 (작업 스케줄러 PickLootSite-DailyPost) — data/post_content_queue.json에
+#                    미리 써둔 글 중 게이트를 통과한 것만 발행. 이 스크립트는 글을 쓰지 않는다
+#                    (scripts/lib/post_quality.py 주석 참고).
 # 시크릿은 저장소 루트 .env에서 읽는다(.gitignore에 이미 포함됨, 값이 없으면 각 파이썬
 # 스크립트가 스스로 "not set — skipping"으로 안전하게 종료한다).
-param([ValidateSet('telegram', 'bluesky')][string]$Mode = 'telegram')
+param([ValidateSet('telegram', 'bluesky', 'post')][string]$Mode = 'telegram')
 
 $repo = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 $logFile = Join-Path $PSScriptRoot "run-local.log"
@@ -50,21 +53,29 @@ try {
 
     if ($Mode -eq 'telegram') {
         $script = 'scripts/post_to_telegram.py'
-        $queuePath = 'notify/telegram'
+        $queuePath = @('notify/telegram')
         $commitMsg = 'chore: mark Telegram notification(s) as sent'
-    } else {
+    } elseif ($Mode -eq 'bluesky') {
         $script = 'scripts/post_to_bluesky.py'
-        $queuePath = 'social/bluesky'
+        $queuePath = @('social/bluesky')
         $commitMsg = 'chore: mark Bluesky post as sent'
+    } else {
+        $script = 'scripts/publish_queued_post.py'
+        $queuePath = @('src/content/posts', 'social/bluesky')
+        $commitMsg = 'content: publish queued guide'
     }
 
     $out = & python $script 2>&1 | Out-String
     Add-Content -Path $logFile -Value $out -Encoding utf8
     if ($LASTEXITCODE -ne 0) { Log "FAIL: $script (exit $LASTEXITCODE)" } else { Log "OK: $script" }
 
-    git diff --quiet -- $queuePath
+    # git diff --quiet만으로는 telegram/bluesky처럼 이미 추적 중인 파일을 옮기는
+    # 경우만 잡힌다 — post 모드가 만드는 새 .md/새 캡션 파일은 추적 대상이 아니라서
+    # diff에 아예 안 잡히고 커밋이 조용히 스킵됐다(2026-10-11 실측). add 먼저 하고
+    # staged diff로 확인한다.
+    git add -- $queuePath
+    git diff --cached --quiet -- $queuePath
     if ($LASTEXITCODE -ne 0) {
-        git add -- $queuePath
         git commit -q -m $commitMsg -- $queuePath
         Log "commit: $commitMsg"
     }
