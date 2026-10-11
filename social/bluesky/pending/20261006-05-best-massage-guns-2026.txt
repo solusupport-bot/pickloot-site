@@ -1,1 +1,0 @@
-Massage gun specs list speed in RPM and stroke length in mm separately -- a high RPM with a short stroke feels different on dense muscle than a lower RPM with a longer one. They aren't interchangeable numbers: pickloot.com/blog/best-massage-guns-2026/
