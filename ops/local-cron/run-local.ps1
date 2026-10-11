@@ -75,13 +75,31 @@ try {
     # staged diff로 확인한다.
     git add -- $queuePath
     git diff --cached --quiet -- $queuePath
-    if ($LASTEXITCODE -ne 0) {
+    $didCommit = ($LASTEXITCODE -ne 0)
+    if ($didCommit) {
         git commit -q -m $commitMsg -- $queuePath
         Log "commit: $commitMsg"
     }
 
     git push -q origin main 2>&1 | Out-Null
     if ($LASTEXITCODE -ne 0) { Log "WARN: git push 실패 — 원격에 새 커밋이 있을 수 있음, 다음 실행에서 pull 후 재시도됨" }
+
+    # 2026-10-11 실측: Cloudflare Pages의 git 연동 빌드가 수개월째 전부 Failure 상태라
+    # (GitHub Actions 정지와는 무관한 별개 문제) push만으로는 사이트에 반영이 안 된다.
+    # post 모드가 실제로 새 글을 발행했을 때만, 깨진 Cloudflare 빌드를 거치지 않고
+    # 로컬에서 직접 빌드해서 Direct Upload로 배포한다.
+    if ($Mode -eq 'post' -and $didCommit) {
+        $buildOut = & npm run build 2>&1 | Out-String
+        Add-Content -Path $logFile -Value $buildOut -Encoding utf8
+        if ($LASTEXITCODE -ne 0) {
+            Log "FAIL: npm run build (exit $LASTEXITCODE) — 배포 건너뜀"
+        } else {
+            Log "OK: npm run build"
+            $deployOut = & npx wrangler pages deploy dist --project-name=pickloot-site --branch=main --commit-dirty=true 2>&1 | Out-String
+            Add-Content -Path $logFile -Value $deployOut -Encoding utf8
+            if ($LASTEXITCODE -ne 0) { Log "FAIL: wrangler pages deploy (exit $LASTEXITCODE)" } else { Log "OK: wrangler pages deploy" }
+        }
+    }
 } finally {
     $mutex.ReleaseMutex()
 }
