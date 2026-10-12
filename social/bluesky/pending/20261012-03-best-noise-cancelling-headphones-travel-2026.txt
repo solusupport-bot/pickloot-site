@@ -1,0 +1,1 @@
+Published codec support like LDAC or LC3 doesn't change noise cancelling at all -- it only changes streaming quality from a compatible phone, two specs often marketed together: pickloot.com/blog/best-noise-cancelling-headphones-travel-2026/

@@ -1,0 +1,1 @@
+A robot vacuum's threshold clearance in mm decides whether it can climb a raised doorway strip at all -- not whether it cleans well once it's past it: pickloot.com/blog/best-robot-vacuums-2026/

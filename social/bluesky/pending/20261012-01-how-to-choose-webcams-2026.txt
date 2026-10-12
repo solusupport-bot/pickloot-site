@@ -1,0 +1,1 @@
+A webcam's top resolution and its top frame rate are usually two different specs -- 4K often maxes out at 30fps while 1080p mode on the same camera can hit 60fps: pickloot.com/blog/how-to-choose-webcams-2026/
