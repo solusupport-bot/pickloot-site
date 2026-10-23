@@ -1,0 +1,1 @@
+An air quality monitor that only measures CO2 won't catch wildfire smoke or off-gassing VOCs -- the pollutants-measured line on the spec sheet matters more than the display or the price tier: pickloot.com/blog/air-quality-monitors-2026/

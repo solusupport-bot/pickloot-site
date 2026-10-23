@@ -1,0 +1,1 @@
+A smart lock's ANSI/BHMA security grade tests the physical lock body -- how many strikes it survives, how hard it is to pick -- not the app or the Wi-Fi security, which the spec sheet doesn't cover at all: pickloot.com/blog/how-to-choose-smart-locks-2026/

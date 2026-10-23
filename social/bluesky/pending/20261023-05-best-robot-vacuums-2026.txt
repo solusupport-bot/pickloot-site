@@ -1,0 +1,1 @@
+LiDAR and camera-based mapping on a robot vacuum aren't interchangeable specs -- one keeps working in a pitch-dark room, the other needs enough ambient light to navigate at all: pickloot.com/blog/best-robot-vacuums-2026/
