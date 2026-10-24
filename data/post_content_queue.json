@@ -169,5 +169,176 @@
     "heroImageAlt": "",
     "heroImageCreditName": "",
     "heroImageCreditUrl": ""
+  },
+  "best-white-noise-machines-2026": {
+    "title": "How to Choose a White Noise Machine for Sleep in 2026",
+    "description": "Sound source, sound library size, connectivity, and power source are the specs that separate white noise machines, compared across three widely reviewed models.",
+    "category": "Home & Living",
+    "format": "guide",
+    "specs": {
+      "columns": [
+        "Sound source",
+        "Sound library size",
+        "Connectivity",
+        "Power source"
+      ],
+      "options": [
+        {
+          "name": "Yogasleep Dohm Classic",
+          "tier": "Budget",
+          "amazonUrl": "https://www.amazon.com/s?k=Yogasleep+Dohm+Classic",
+          "values": [
+            "Real internal fan blade, not a digital recording",
+            "One sound only — the fan itself, with tone shaped by a manual cover ring",
+            "No app, no Bluetooth — fully offline by design",
+            "Plugged in via a wall adapter; no battery option"
+          ],
+          "fitsWhen": "You want genuine fan-blade airflow sound rather than a digital loop, and you don't need multiple sound options or app control."
+        },
+        {
+          "name": "LectroFan EVO",
+          "tier": "Mid-range",
+          "amazonUrl": "https://www.amazon.com/s?k=LectroFan+EVO",
+          "values": [
+            "Digital sound generator (fan and white/pink/brown noise variations, non-looping)",
+            "22 non-looping sound variations built in",
+            "3.5mm headphone jack for private listening; no app or Bluetooth",
+            "Wall adapter or USB power, depending on the listing"
+          ],
+          "fitsWhen": "You want the widest built-in sound variety of these three without needing a phone app, and a headphone jack matters for shared rooms."
+        },
+        {
+          "name": "Hatch Restore 3",
+          "tier": "Premium",
+          "amazonUrl": "https://www.amazon.com/s?k=Hatch+Restore+3",
+          "values": [
+            "Digital playback combined with a sunrise/sunset light",
+            "Expanded sound library gated behind an optional paid app subscription",
+            "WiFi and app control (schedules, routines, remote control)",
+            "Plugged in; functions as a bedside light as well as a sound machine"
+          ],
+          "fitsWhen": "You want sound paired with a wake-up light and app-based routines, and you're fine with the deepest sound library sitting behind a subscription rather than being free with the hardware."
+        }
+      ]
+    },
+    "body": "White noise machines look interchangeable until you check four specs: what actually makes the sound, how many sound options you get, whether it needs an app, and how it's powered. Three widely reviewed models take noticeably different approaches to the same basic job of helping someone sleep through a noisy apartment or a light-sleeping kid's room.\n\n## Sound source is the first real fork — fan blade or digital loop\n\nSome machines use an actual spinning fan blade to generate noise, which produces real, non-repeating airflow sound and a manual tone ring instead of a settings menu. Others generate sound digitally and loop it, which allows for dozens of sound variations on one device but means the sound is, technically, a recording repeating on a cycle short enough that most sleepers don't notice it. Neither approach is objectively better — fan-blade purists prefer the mechanical sound specifically, while digital models win on variety and headphone-jack compatibility.\n\n## Sound library size trades simplicity for choice\n\nA single-sound fan machine has nothing to configure, which some buyers specifically want after getting overwhelmed by an app full of options. A digital machine with over 20 built-in variations lets you switch between fan, white noise, pink noise, brown noise, and ocean-style sounds without needing a phone. The highest-end option in this category pushes further and gates its deepest sound library behind a paid subscription rather than including everything with the hardware purchase — worth checking before assuming a feature-rich unit's full library is included for free.\n\n## Connectivity decides whether you need a phone to use it at all\n\nThe simplest machines have no app and no Bluetooth by design, which some buyers treat as a feature, not a limitation, since a sleep aid that doesn't require unlocking a phone is one less screen in the bedroom. A mid-tier digital machine may add a headphone jack for private listening without any app at all. App-connected machines add scheduling, remote control, and smart-home routines, at the cost of needing WiFi and an account to unlock the full feature set.\n\n## Power source affects where you can actually use it\n\nAll three of these specific models are designed to stay plugged in rather than run on battery, which fits their primary use case as a stationary bedside unit. If portability for travel or a nursery without a nearby outlet matters, that's a separate spec worth checking on other models in each brand's lineup — some brands sell a smaller battery-powered travel version alongside their plugged-in flagship, and the specs (sound count, battery life) are usually lower on the portable version.\n\n## Matching the spec sheet to how you actually sleep\n\nSomeone who just wants airflow sound and nothing else to configure is usually better served by the single-sound fan-blade option than by a feature-rich digital machine they'll never fully use. Someone sharing a room, or traveling often, leans toward the model with a headphone jack or the widest built-in sound range, since that flexibility solves a real, specific problem rather than adding features for their own sake. And anyone drawn to the app-connected option should go in knowing that the full sound library on that tier may not be included with the hardware purchase — check whether a subscription is required before assuming every feature advertised on the box is free to use long-term.\n",
+    "heroImage": "",
+    "heroImageAlt": "",
+    "heroImageCreditName": "",
+    "heroImageCreditUrl": ""
+  },
+  "best-coffee-grinders-2026": {
+    "title": "How to Choose the Right Burr Coffee Grinder in 2026",
+    "description": "Burr type, grind setting range, adjustment style, and brew-method range are the specs that separate burr grinders, compared across three well-known models.",
+    "category": "Kitchen",
+    "format": "guide",
+    "specs": {
+      "columns": [
+        "Burr type",
+        "Grind setting range",
+        "Adjustment style",
+        "Best brew methods"
+      ],
+      "options": [
+        {
+          "name": "OXO Brew Conical Burr Grinder",
+          "tier": "Budget",
+          "amazonUrl": "https://www.amazon.com/s?k=OXO+Brew+Conical+Burr+Grinder",
+          "values": [
+            "Conical burrs",
+            "15 main settings, with micro-adjustments between them per the product listing",
+            "Stepped dial with fine micro-adjustment between steps",
+            "Drip, pour-over, and French press, per OXO's own positioning"
+          ],
+          "fitsWhen": "You want a conical grinder tuned for drip and pour-over rather than espresso, with enough micro-adjustment to fine-tune within each setting."
+        },
+        {
+          "name": "Baratza Encore",
+          "tier": "Mid-range",
+          "amazonUrl": "https://www.amazon.com/s?k=Baratza+Encore",
+          "values": [
+            "40mm stainless steel conical burrs",
+            "40 stepped settings, per Baratza's published spec",
+            "Stepped dial, no stepless fine-tuning",
+            "Drip, pour-over, and French press; not marketed as an espresso grinder"
+          ],
+          "fitsWhen": "You want a grinder with a long reliability track record among home baristas, for brew methods other than espresso."
+        },
+        {
+          "name": "Breville Smart Grinder Pro",
+          "tier": "Premium",
+          "amazonUrl": "https://www.amazon.com/s?k=Breville+Smart+Grinder+Pro",
+          "values": [
+            "Flat burrs",
+            "Sources disagree on the exact count — commonly listed around 60 settings, with some listings citing a different number",
+            "Stepped dial with a digital timer for dose-by-time grinding",
+            "Positioned for espresso as well as drip and French press, per Breville's marketing"
+          ],
+          "fitsWhen": "You want one grinder that covers espresso as well as drip methods, and a built-in timer for dosing matters more than having the single widest settings range on paper."
+        }
+      ]
+    },
+    "body": "Burr grinders all do the same basic job — crush beans between two burrs instead of chopping them with blades — but the burr type, how many grind settings you get, how you adjust between them, and which brew methods a grinder is actually built for vary a lot between models that look similar on a shelf.\n\n## Conical vs. flat burrs changes the flavor profile, not just the price\n\nConical burrs are the more common choice for home grinders built around drip, pour-over, and French press — they run quieter, stay cooler during long grinding sessions, and are generally forgiving across brew methods. Flat burrs are associated with sharper flavor separation and are the more common choice on grinders marketed specifically for espresso. Neither type is strictly better; the right choice depends on which brew methods you actually use most, not on price alone, since flat-burr grinders show up at multiple price points.\n\n## Grind setting range matters less than how evenly spaced the steps are\n\nA higher number of settings sounds like more control, but published setting counts aren't directly comparable across brands — one grinder's \"40 settings\" and another's \"60 settings\" don't necessarily cover the same practical range from coarse French press to fine espresso. What matters more in practice is whether the steps near the fine end (where espresso lives) are close enough together to dial in precisely, something spec sheets rarely quantify on their own.\n\n## Stepped vs. stepless adjustment is a real usability difference\n\nStepped grinders click between fixed positions, which makes repeating a grind size trivial — useful if you brew the same thing daily and don't want to hunt for a dial position. Stepless grinders adjust continuously, which is preferred by people chasing a precise espresso grind but makes it harder to return to an exact previous setting without marking it yourself. None of the three grinders compared here are stepless; if infinite adjustment specifically matters to you, that's worth searching for as its own spec.\n\n## Brew-method range: check what the grinder is actually marketed for\n\nNot every burr grinder is built with espresso in mind, even though all of them can technically grind fine. Grinders positioned for drip, pour-over, and French press are tuned and marketed around that coarser-to-medium range, while espresso-capable grinders are built and marketed to also hit a consistent fine grind. Buying a drip-focused grinder expecting espresso-level consistency — or the reverse, overpaying for espresso capability you'll never use — is the most common mismatch in this category.\n\n## Picking between these three in practice\n\nIf you mainly brew drip or pour-over and don't care about espresso, the entry-level conical grinder covers the job without paying for capability you won't use. If you want a grinder with a long track record among home baristas and don't need espresso either, the mid-tier conical option is the safer long-term pick over a cheaper no-name alternative. If espresso is part of your routine alongside drip or French press, the flat-burr option built with espresso in mind is worth the extra cost — just don't expect its published settings count to be directly comparable to the stepped conical grinders above it, since the numbers aren't measured the same way across brands.\n",
+    "heroImage": "",
+    "heroImageAlt": "",
+    "heroImageCreditName": "",
+    "heroImageCreditUrl": ""
+  },
+  "best-portable-neck-fans-2026": {
+    "title": "How to Choose the Best Portable Neck Fan for Summer 2026",
+    "description": "Battery capacity, speed settings, noise level, and design type are the specs that separate portable neck fans, compared across three current models.",
+    "category": "Outdoor & Travel",
+    "format": "guide",
+    "specs": {
+      "columns": [
+        "Battery capacity",
+        "Speed settings",
+        "Noise level",
+        "Design type"
+      ],
+      "options": [
+        {
+          "name": "CIVPOWER Neck Fan",
+          "tier": "Budget",
+          "amazonUrl": "https://www.amazon.com/s?k=CIVPOWER+Neck+Fan",
+          "values": [
+            "4,000 mAh, USB-C charging, rated up to about 5 hours to a full charge",
+            "3 speeds",
+            "Rated at roughly 45 dB on average across speeds, per the listing",
+            "Bladeless, worn around the neck"
+          ],
+          "fitsWhen": "You want the cheapest well-reviewed option here and don't need more than 3 speed levels."
+        },
+        {
+          "name": "JisuLife Neck Fan (standard)",
+          "tier": "Mid-range",
+          "amazonUrl": "https://www.amazon.com/s?k=JisuLife+Neck+Fan",
+          "values": [
+            "4,000 mAh per one retailer listing — check the specific model, since JisuLife sells multiple versions",
+            "5 speeds",
+            "Not consistently published across listings",
+            "Bladeless, worn around the neck"
+          ],
+          "fitsWhen": "You want more speed granularity than the 3-speed budget option without stepping up to the Pro model's larger battery."
+        },
+        {
+          "name": "JisuLife Neck Fan Pro",
+          "tier": "Premium",
+          "amazonUrl": "https://www.amazon.com/s?k=JisuLife+Neck+Fan+Pro",
+          "values": [
+            "5,000 mAh — listed as among the largest battery of any neck fan in its class",
+            "Stepless dial, roughly 1-100, rather than fixed speed steps",
+            "Not consistently published — verify on the current listing",
+            "Bladeless, worn around the neck"
+          ],
+          "fitsWhen": "You want the largest battery and finest speed control of these three, and are fine paying more for a stepless dial over fixed speed clicks."
+        }
+      ]
+    },
+    "body": "Portable neck fans all solve the same problem — hands-free personal cooling you can wear while walking, commuting, or standing outside — but battery capacity, how many speed levels you get, how loud each one runs, and the basic design type vary enough between models that the cheapest option isn't automatically the worst deal.\n\n## Battery capacity decides how long one charge actually lasts\n\nBattery capacity across this category commonly runs from around 2,400 mAh on budget listings up to 5,000 mAh on the largest models, and that number matters more than it looks like on a spec sheet: published runtime hours are almost always measured at the lowest speed setting, so real-world battery life on a higher, noisier setting will be meaningfully shorter than the headline number. If you plan to run a neck fan on a high setting most of the time, treat the advertised hours as an optimistic ceiling, not a guarantee.\n\n## Speed settings range from simple to continuously adjustable\n\nBudget models typically offer 3 fixed speeds, which is enough for most people but leaves a noticeable jump between \"too gentle\" and \"too strong\" on hot days. Mid-range models add a couple more fixed steps. The highest-end models in this category replace fixed steps with a stepless dial covering a wide numeric range, letting you land on an exact airflow level instead of picking the closest fixed step.\n\n## Noise level is inconsistently published, so treat any number as a rough guide\n\nOnly some listings publish a decibel rating at all, and where they do, figures cluster in the mid-40s dB range for budget and mid-tier bladeless models — roughly as loud as a quiet conversation. Premium and some boutique bladeless models claim noticeably lower noise, but because manufacturers don't test under the same conditions, a published dB figure from one brand isn't reliably comparable to another brand's number without an independent test.\n\n## Design type: nearly every current model is bladeless\n\nBladeless, ring-style designs dominate this category now, largely because exposed blades close to hair and clothing have been a recurring complaint about older neck fan designs. If you have long hair, it's still worth checking a specific model's intake vent design rather than assuming \"bladeless\" alone eliminates the issue — some bladeless designs still have an intake that can catch loose hair, even without an external blade.\n\n## Which spec to prioritize for your situation\n\nFor an occasional commute or short walks outside, the 3-speed budget model covers the job without paying for a larger battery you won't run down anyway. For a full workday outdoors or a long commute, the larger battery on the premium model matters more than it looks like on paper, since real runtime at a comfortable speed is shorter than the lowest-setting number on the box. And if you've had a neck fan before and found the speed jumps too abrupt, the stepless dial on the premium option is the one spec here that directly fixes that specific complaint, rather than just adding another fixed step in between.\n",
+    "heroImage": "",
+    "heroImageAlt": "",
+    "heroImageCreditName": "",
+    "heroImageCreditUrl": ""
   }
 }
