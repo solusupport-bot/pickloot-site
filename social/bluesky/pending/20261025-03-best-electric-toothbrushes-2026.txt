@@ -1,0 +1,1 @@
+A pressure sensor on an electric toothbrush doesn't stop the brush or cut the motor -- it only flashes or buzzes, so the spec only helps if you actually ease off when it goes off: pickloot.com/blog/best-electric-toothbrushes-2026/

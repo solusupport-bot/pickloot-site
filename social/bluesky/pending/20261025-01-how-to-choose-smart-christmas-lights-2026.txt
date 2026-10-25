@@ -1,0 +1,1 @@
+None of these smart string lights publish lumens for the whole strand. Without that figure, LED count divided by string length is the closest published proxy for brightness: pickloot.com/blog/how-to-choose-smart-christmas-lights-2026/
