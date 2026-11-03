@@ -1,0 +1,1 @@
+Battery mAh on heated gloves tells you how long they run, not how hot they get. Max heat level comes from the heating element, and not every brand publishes a number for it. Published specs compared side by side: pickloot.com/blog/how-to-choose-heated-gloves-2026/
