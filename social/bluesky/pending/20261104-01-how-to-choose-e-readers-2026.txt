@@ -1,0 +1,1 @@
+Color e-ink isn't blurrier text - it's a filter layer on the same panel. Text stays at 300 ppi; only images and comics drop to 150 ppi. What that split means for battery life and which model to pick: pickloot.com/blog/how-to-choose-e-readers-2026/
