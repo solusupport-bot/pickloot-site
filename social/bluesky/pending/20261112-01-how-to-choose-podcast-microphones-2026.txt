@@ -1,0 +1,1 @@
+Sample rate and bit depth on a podcast mic don't make the capsule sound better - they set how much digital headroom your editing software gets before export compresses it away. What the published specs actually mean: pickloot.com/blog/how-to-choose-podcast-microphones-2026/
