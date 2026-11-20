@@ -1,0 +1,1 @@
+Vitamix measures blender power in horsepower; Ninja and Hamilton Beach use watts. The two units don't convert cleanly, so a bigger number on one brand's spec sheet doesn't mean a stronger motor than the other: pickloot.com/blog/how-to-choose-blenders-2026/
